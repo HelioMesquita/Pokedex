@@ -21,6 +21,13 @@
 		163D1D412BFCCD1700F82700 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D3F2BFCCD1600F82700 /* RequestProvider.swift */; };
 		165ABCEC2BFD4B88007F233C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCEB2BFD4B88007F233C /* AppDelegate.swift */; };
 		165ABCEE2BFD4B9C007F233C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCED2BFD4B9C007F233C /* SceneDelegate.swift */; };
+		165ABCF22BFD516B007F233C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCF12BFD516B007F233C /* AppCoordinator.swift */; };
+		165ABCF42BFD529E007F233C /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCF32BFD529E007F233C /* FeedViewModel.swift */; };
+		165ABCF62BFD55BD007F233C /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCF52BFD55BD007F233C /* FeedResponse.swift */; };
+		165ABCF82BFD55D5007F233C /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCF72BFD55D5007F233C /* FeedModel.swift */; };
+		165ABCFA2BFD5637007F233C /* FeedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCF92BFD5637007F233C /* FeedBuilder.swift */; };
+		165ABCFD2BFD5657007F233C /* AverageColorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCFC2BFD5657007F233C /* AverageColorUtility.swift */; };
+		165ABCFF2BFD5672007F233C /* FeedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCFE2BFD5672007F233C /* FeedRequest.swift */; };
 		16F1D85C2BFCEBD700C61AA8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 16F1D85B2BFCEBD700C61AA8 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +59,13 @@
 		163D1D3F2BFCCD1600F82700 /* RequestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
 		165ABCEB2BFD4B88007F233C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165ABCED2BFD4B9C007F233C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		165ABCF12BFD516B007F233C /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		165ABCF32BFD529E007F233C /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		165ABCF52BFD55BD007F233C /* FeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResponse.swift; sourceTree = "<group>"; };
+		165ABCF72BFD55D5007F233C /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		165ABCF92BFD5637007F233C /* FeedBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBuilder.swift; sourceTree = "<group>"; };
+		165ABCFC2BFD5657007F233C /* AverageColorUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageColorUtility.swift; sourceTree = "<group>"; };
+		165ABCFE2BFD5672007F233C /* FeedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +111,13 @@
 		163D1D042BFCC15400F82700 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				165ABCEF2BFD5004007F233C /* Resources */,
-				16F1D8542BFCDEC200C61AA8 /* Scene */,
-				163D1D332BFCCC2100F82700 /* Network */,
 				165ABCEB2BFD4B88007F233C /* AppDelegate.swift */,
 				165ABCED2BFD4B9C007F233C /* SceneDelegate.swift */,
+				165ABCF02BFD515C007F233C /* Coordinator */,
+				163D1D332BFCCC2100F82700 /* Network */,
+				165ABCEF2BFD5004007F233C /* Resources */,
+				16F1D8542BFCDEC200C61AA8 /* Scenes */,
+				165ABCFB2BFD564C007F233C /* Utils */,
 			);
 			path = pokedex;
 			sourceTree = "<group>";
@@ -154,18 +170,39 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		16F1D8542BFCDEC200C61AA8 /* Scene */ = {
+		165ABCF02BFD515C007F233C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				165ABCF12BFD516B007F233C /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		165ABCFB2BFD564C007F233C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				165ABCFC2BFD5657007F233C /* AverageColorUtility.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		16F1D8542BFCDEC200C61AA8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
 				16F1D8552BFCDECE00C61AA8 /* Feed */,
 			);
-			path = Scene;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		16F1D8552BFCDECE00C61AA8 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
 				163D1D0B2BFCC15400F82700 /* FeedView.swift */,
+				165ABCF32BFD529E007F233C /* FeedViewModel.swift */,
+				165ABCF52BFD55BD007F233C /* FeedResponse.swift */,
+				165ABCF72BFD55D5007F233C /* FeedModel.swift */,
+				165ABCF92BFD5637007F233C /* FeedBuilder.swift */,
+				165ABCFE2BFD5672007F233C /* FeedRequest.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -285,12 +322,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165ABCF22BFD516B007F233C /* AppCoordinator.swift in Sources */,
 				163D1D3B2BFCCC2100F82700 /* RequestError.swift in Sources */,
+				165ABCFD2BFD5657007F233C /* AverageColorUtility.swift in Sources */,
+				165ABCFA2BFD5637007F233C /* FeedBuilder.swift in Sources */,
+				165ABCF42BFD529E007F233C /* FeedViewModel.swift in Sources */,
 				163D1D3D2BFCCC2100F82700 /* ServiceProtocol.swift in Sources */,
+				165ABCFF2BFD5672007F233C /* FeedRequest.swift in Sources */,
 				163D1D402BFCCD1700F82700 /* Service.swift in Sources */,
 				163D1D392BFCCC2100F82700 /* HttpVerb.swift in Sources */,
+				165ABCF62BFD55BD007F233C /* FeedResponse.swift in Sources */,
 				163D1D382BFCCC2100F82700 /* BuilderProtocol.swift in Sources */,
 				163D1D412BFCCD1700F82700 /* RequestProvider.swift in Sources */,
+				165ABCF82BFD55D5007F233C /* FeedModel.swift in Sources */,
 				163D1D3C2BFCCC2100F82700 /* RequestProtocol.swift in Sources */,
 				165ABCEE2BFD4B9C007F233C /* SceneDelegate.swift in Sources */,
 				163D1D0C2BFCC15400F82700 /* FeedView.swift in Sources */,

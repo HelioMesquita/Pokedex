@@ -11,18 +11,20 @@ import SwiftUI
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     var window: UIWindow?
+    var coordinator: AppCoordinator?
     
     func scene(
         _ scene: UIScene, willConnectTo session: UISceneSession,
         options connectionOptions: UIScene.ConnectionOptions
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        window = UIWindow()
-        let feedView = UIHostingController(rootView: FeedView())
-        let navController = UINavigationController(rootViewController: feedView)
-        navController.navigationBar.prefersLargeTitles = true
-        feedView.title = "Pokédex"
-        window?.rootViewController = navController
+        window = UIWindow(windowScene: windowScene)
+        
+        let nav = UINavigationController()
+        coordinator = AppCoordinator(navigationController: nav)
+        coordinator?.start()
+
+        window?.rootViewController = nav
         window?.makeKeyAndVisible()
         window?.windowScene = windowScene
     }
