@@ -97,11 +97,9 @@
 		163D1D042BFCC15400F82700 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				165ABCEF2BFD5004007F233C /* Resources */,
 				16F1D8542BFCDEC200C61AA8 /* Scene */,
 				163D1D332BFCCC2100F82700 /* Network */,
-				163D1D0D2BFCC15600F82700 /* Assets.xcassets */,
-				163D1D122BFCC15600F82700 /* Info.plist */,
-				163D1D0F2BFCC15600F82700 /* Preview Content */,
 				165ABCEB2BFD4B88007F233C /* AppDelegate.swift */,
 				165ABCED2BFD4B9C007F233C /* SceneDelegate.swift */,
 			);
@@ -144,6 +142,16 @@
 				163D1D322BFCCC2100F82700 /* ServiceProtocol.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		165ABCEF2BFD5004007F233C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				163D1D0D2BFCC15600F82700 /* Assets.xcassets */,
+				163D1D122BFCC15600F82700 /* Info.plist */,
+				163D1D0F2BFCC15600F82700 /* Preview Content */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		16F1D8542BFCDEC200C61AA8 /* Scene */ = {
@@ -435,10 +443,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"pokedex/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,10 +468,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"pokedex/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
