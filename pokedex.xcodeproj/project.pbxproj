@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		163D1D082BFCC15400F82700 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 163D1D072BFCC15400F82700 /* RealityKitContent */; };
-		163D1D0A2BFCC15400F82700 /* pokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D092BFCC15400F82700 /* pokedexApp.swift */; };
-		163D1D0C2BFCC15400F82700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D0B2BFCC15400F82700 /* ContentView.swift */; };
+		163D1D0C2BFCC15400F82700 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D0B2BFCC15400F82700 /* FeedView.swift */; };
 		163D1D0E2BFCC15600F82700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163D1D0D2BFCC15600F82700 /* Assets.xcassets */; };
 		163D1D112BFCC15600F82700 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163D1D102BFCC15600F82700 /* Preview Assets.xcassets */; };
 		163D1D1C2BFCC15600F82700 /* pokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D1B2BFCC15600F82700 /* pokedexTests.swift */; };
+		163D1D382BFCCC2100F82700 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D2D2BFCCC2100F82700 /* BuilderProtocol.swift */; };
+		163D1D392BFCCC2100F82700 /* HttpVerb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D2E2BFCCC2100F82700 /* HttpVerb.swift */; };
+		163D1D3B2BFCCC2100F82700 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D302BFCCC2100F82700 /* RequestError.swift */; };
+		163D1D3C2BFCCC2100F82700 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D312BFCCC2100F82700 /* RequestProtocol.swift */; };
+		163D1D3D2BFCCC2100F82700 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D322BFCCC2100F82700 /* ServiceProtocol.swift */; };
+		163D1D402BFCCD1700F82700 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D3E2BFCCD1600F82700 /* Service.swift */; };
+		163D1D412BFCCD1700F82700 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D3F2BFCCD1600F82700 /* RequestProvider.swift */; };
+		165ABCEC2BFD4B88007F233C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCEB2BFD4B88007F233C /* AppDelegate.swift */; };
+		165ABCEE2BFD4B9C007F233C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ABCED2BFD4B9C007F233C /* SceneDelegate.swift */; };
+		16F1D85C2BFCEBD700C61AA8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 16F1D85B2BFCEBD700C61AA8 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +37,21 @@
 /* Begin PBXFileReference section */
 		163D1D022BFCC15400F82700 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		163D1D062BFCC15400F82700 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		163D1D092BFCC15400F82700 /* pokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedexApp.swift; sourceTree = "<group>"; };
-		163D1D0B2BFCC15400F82700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		163D1D0B2BFCC15400F82700 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		163D1D0D2BFCC15600F82700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163D1D102BFCC15600F82700 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		163D1D122BFCC15600F82700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163D1D172BFCC15600F82700 /* pokedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		163D1D1B2BFCC15600F82700 /* pokedexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedexTests.swift; sourceTree = "<group>"; };
+		163D1D2D2BFCCC2100F82700 /* BuilderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuilderProtocol.swift; sourceTree = "<group>"; };
+		163D1D2E2BFCCC2100F82700 /* HttpVerb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpVerb.swift; sourceTree = "<group>"; };
+		163D1D302BFCCC2100F82700 /* RequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		163D1D312BFCCC2100F82700 /* RequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		163D1D322BFCCC2100F82700 /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		163D1D3E2BFCCD1600F82700 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		163D1D3F2BFCCD1600F82700 /* RequestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
+		165ABCEB2BFD4B88007F233C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		165ABCED2BFD4B9C007F233C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F1D85C2BFCEBD700C61AA8 /* SDWebImageSwiftUI in Frameworks */,
 				163D1D082BFCC15400F82700 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +81,7 @@
 				163D1D052BFCC15400F82700 /* Packages */,
 				163D1D1A2BFCC15600F82700 /* pokedexTests */,
 				163D1D032BFCC15400F82700 /* Products */,
+				16F1D85A2BFCEBD700C61AA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +97,13 @@
 		163D1D042BFCC15400F82700 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				163D1D092BFCC15400F82700 /* pokedexApp.swift */,
-				163D1D0B2BFCC15400F82700 /* ContentView.swift */,
+				16F1D8542BFCDEC200C61AA8 /* Scene */,
+				163D1D332BFCCC2100F82700 /* Network */,
 				163D1D0D2BFCC15600F82700 /* Assets.xcassets */,
 				163D1D122BFCC15600F82700 /* Info.plist */,
 				163D1D0F2BFCC15600F82700 /* Preview Content */,
+				165ABCEB2BFD4B88007F233C /* AppDelegate.swift */,
+				165ABCED2BFD4B9C007F233C /* SceneDelegate.swift */,
 			);
 			path = pokedex;
 			sourceTree = "<group>";
@@ -111,6 +132,43 @@
 			path = pokedexTests;
 			sourceTree = "<group>";
 		};
+		163D1D332BFCCC2100F82700 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				163D1D3F2BFCCD1600F82700 /* RequestProvider.swift */,
+				163D1D3E2BFCCD1600F82700 /* Service.swift */,
+				163D1D2D2BFCCC2100F82700 /* BuilderProtocol.swift */,
+				163D1D2E2BFCCC2100F82700 /* HttpVerb.swift */,
+				163D1D302BFCCC2100F82700 /* RequestError.swift */,
+				163D1D312BFCCC2100F82700 /* RequestProtocol.swift */,
+				163D1D322BFCCC2100F82700 /* ServiceProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		16F1D8542BFCDEC200C61AA8 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				16F1D8552BFCDECE00C61AA8 /* Feed */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		16F1D8552BFCDECE00C61AA8 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				163D1D0B2BFCC15400F82700 /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		16F1D85A2BFCEBD700C61AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +187,7 @@
 			name = pokedex;
 			packageProductDependencies = (
 				163D1D072BFCC15400F82700 /* RealityKitContent */,
+				16F1D85B2BFCEBD700C61AA8 /* SDWebImageSwiftUI */,
 			);
 			productName = pokedex;
 			productReference = 163D1D022BFCC15400F82700 /* pokedex.app */;
@@ -178,8 +237,12 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 163D1CF92BFCC15400F82700;
+			packageReferences = (
+				16F1D8592BFCEB5100C61AA8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 163D1D032BFCC15400F82700 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -214,8 +277,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163D1D0C2BFCC15400F82700 /* ContentView.swift in Sources */,
-				163D1D0A2BFCC15400F82700 /* pokedexApp.swift in Sources */,
+				163D1D3B2BFCCC2100F82700 /* RequestError.swift in Sources */,
+				163D1D3D2BFCCC2100F82700 /* ServiceProtocol.swift in Sources */,
+				163D1D402BFCCD1700F82700 /* Service.swift in Sources */,
+				163D1D392BFCCC2100F82700 /* HttpVerb.swift in Sources */,
+				163D1D382BFCCC2100F82700 /* BuilderProtocol.swift in Sources */,
+				163D1D412BFCCD1700F82700 /* RequestProvider.swift in Sources */,
+				163D1D3C2BFCCC2100F82700 /* RequestProtocol.swift in Sources */,
+				165ABCEE2BFD4B9C007F233C /* SceneDelegate.swift in Sources */,
+				163D1D0C2BFCC15400F82700 /* FeedView.swift in Sources */,
+				165ABCEC2BFD4B88007F233C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,10 +550,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		16F1D8592BFCEB5100C61AA8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		163D1D072BFCC15400F82700 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
+		};
+		16F1D85B2BFCEBD700C61AA8 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16F1D8592BFCEB5100C61AA8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
