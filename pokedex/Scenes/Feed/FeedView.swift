@@ -25,7 +25,7 @@ struct FeedView: View {
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 16) {
                     ForEach($viewModel.list) { pokemon in
-                        PokeView(pokemon: pokemon.wrappedValue)
+                        FeedPokemonView(pokemon: pokemon.wrappedValue)
                             .onAppear {
                                 viewModel.handleNextPage(pokemon: pokemon.wrappedValue)
                             }
@@ -40,7 +40,7 @@ struct FeedView: View {
     }
 }
 
-struct PokeView: View {
+struct FeedPokemonView: View {
     let pokemon: FeedModel.Pokemon
     
     @State var backgroundColor = Color.clear

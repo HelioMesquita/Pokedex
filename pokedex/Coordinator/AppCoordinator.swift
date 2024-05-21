@@ -25,9 +25,11 @@ class AppCoordinator: Coordinator {
     }
 
     func start() {
-        let vm = FeedViewModel()
-        let vc = UIHostingController(rootView: FeedView(viewModel: vm))
-        vc.title = "Pokédex"
-        navigationController.pushViewController(vc, animated: false)
+        let viewModel = FeedViewModel()
+        let view = FeedView(viewModel: viewModel, coordinator: self)
+        
+        let viewController = UIHostingController(rootView: view)
+        viewController.title = "Pokédex"
+        navigationController.pushViewController(viewController, animated: false)
     }
 }
