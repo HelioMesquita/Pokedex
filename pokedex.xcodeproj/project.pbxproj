@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		163D1D082BFCC15400F82700 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 163D1D072BFCC15400F82700 /* RealityKitContent */; };
 		163D1D0C2BFCC15400F82700 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163D1D0B2BFCC15400F82700 /* FeedView.swift */; };
 		163D1D0E2BFCC15600F82700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163D1D0D2BFCC15600F82700 /* Assets.xcassets */; };
 		163D1D112BFCC15600F82700 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163D1D102BFCC15600F82700 /* Preview Assets.xcassets */; };
@@ -43,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		163D1D022BFCC15400F82700 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		163D1D062BFCC15400F82700 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		163D1D0B2BFCC15400F82700 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		163D1D0D2BFCC15600F82700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163D1D102BFCC15600F82700 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F1D85C2BFCEBD700C61AA8 /* SDWebImageSwiftUI in Frameworks */,
-				163D1D082BFCC15400F82700 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				163D1D042BFCC15400F82700 /* pokedex */,
-				163D1D052BFCC15400F82700 /* Packages */,
 				163D1D1A2BFCC15600F82700 /* pokedexTests */,
 				163D1D032BFCC15400F82700 /* Products */,
 				16F1D85A2BFCEBD700C61AA8 /* Frameworks */,
@@ -120,14 +116,6 @@
 				165ABCFB2BFD564C007F233C /* Utils */,
 			);
 			path = pokedex;
-			sourceTree = "<group>";
-		};
-		163D1D052BFCC15400F82700 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				163D1D062BFCC15400F82700 /* RealityKitContent */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		163D1D0F2BFCC15600F82700 /* Preview Content */ = {
@@ -231,7 +219,6 @@
 			);
 			name = pokedex;
 			packageProductDependencies = (
-				163D1D072BFCC15400F82700 /* RealityKitContent */,
 				16F1D85B2BFCEBD700C61AA8 /* SDWebImageSwiftUI */,
 			);
 			productName = pokedex;
@@ -614,10 +601,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		163D1D072BFCC15400F82700 /* RealityKitContent */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
-		};
 		16F1D85B2BFCEBD700C61AA8 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 16F1D8592BFCEB5100C61AA8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
