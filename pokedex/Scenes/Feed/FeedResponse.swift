@@ -11,10 +11,16 @@ class FeedResponse: Decodable {
     let count: Int
     let next: String?
     let previous: String?
-    let results: [PokemonFeedNameResponse]
+    let results: [NameURLModel]
     
-    class PokemonFeedNameResponse: Decodable {
-        let name: String
-        let url: String
+}
+
+class NameURLModel: Decodable {
+    let name: String
+    let url: String
+    
+    init(name: String, url: String) {
+        self.name = name
+        self.url = url
     }
 }

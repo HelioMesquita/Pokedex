@@ -32,4 +32,13 @@ class AppCoordinator: Coordinator {
         viewController.title = "Pokédex"
         navigationController.pushViewController(viewController, animated: false)
     }
+    
+    func showDetail(pokemon: FeedModel.Pokemon) {
+        let viewModel = DetailViewModel(pokemon: pokemon)
+        let view = DetailView(viewModel: viewModel, coordinator: self)
+        
+        let viewController = UIHostingController(rootView: view)
+        viewController.title = pokemon.name.capitalized
+        navigationController.pushViewController(viewController, animated: false)
+    }
 }

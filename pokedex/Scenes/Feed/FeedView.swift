@@ -29,6 +29,9 @@ struct FeedView: View {
                             .onAppear {
                                 viewModel.handleNextPage(pokemon: pokemon.wrappedValue)
                             }
+                            .onTapGesture {
+                                coordinator?.showDetail(pokemon: pokemon.wrappedValue)
+                            }
                             .frame(height: height)
                     }
                 }

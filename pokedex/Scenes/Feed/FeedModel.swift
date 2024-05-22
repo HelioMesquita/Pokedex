@@ -20,11 +20,9 @@ class FeedModel {
         self.results = results
     }
     
-    class Pokemon: Identifiable, Equatable {
+    class Pokemon: NameURLModel, Identifiable, Equatable {
         
         let id = UUID()
-        var name: String
-        let url: String
         
         var imageURL: String {
             return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/\(String(describing: getId)).png"
@@ -34,11 +32,6 @@ class FeedModel {
             var id = url.components(separatedBy: "https://pokeapi.co/api/v2/pokemon/").last ?? ""
             id = String(id.dropLast())
             return Int(id) ?? 0
-        }
-        
-        init(name: String, url: String) {
-            self.name = name
-            self.url = url
         }
         
         static func == (lhs: FeedModel.Pokemon, rhs: FeedModel.Pokemon) -> Bool {
