@@ -14,6 +14,7 @@ class DetailResponse: Decodable {
     let stats: [StatsResponse]
     let types: [TypesResponse]
     let abilities: [AbilitiesResponse]
+    let sprites: SpriteResponse
     
     class StatsResponse: Decodable {
         let base_stat: Double
@@ -26,6 +27,26 @@ class DetailResponse: Decodable {
 
     class AbilitiesResponse: Decodable {
         let ability: NameURLModel
+    }
+    
+    class SpriteResponse: Decodable {
+        let other: OthersResponse
+    }
+    
+    class OthersResponse: Decodable {
+        let officialArtwork: OfficialArtwork
+        
+        enum CodingKeys: String, CodingKey {
+            case officialArtwork = "official-artwork"
+        }
+    }
+    
+    class OfficialArtwork: Decodable {
+        let frontDefault: String
+        
+        enum CodingKeys: String, CodingKey {
+            case frontDefault = "front_default"
+        }
     }
 
 }

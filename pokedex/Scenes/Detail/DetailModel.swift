@@ -14,14 +14,22 @@ class DetailModel {
     let types: [String]
     let abilities: [String]
     let stats: [PokemonStats]
+    let image: String
     
-    init(name: String, order: Int, weight: Double, types: [String], abilities: [String], stats: [PokemonStats]) {
+    init(name: String, 
+         order: Int,
+         weight: Double,
+         types: [String],
+         abilities: [String],
+         stats: [PokemonStats],
+         image: String) {
         self.name = name
         self.order = order
         self.weight = weight
         self.types = types
         self.abilities = abilities
         self.stats = stats
+        self.image = image
     }
     
     class PokemonStats {

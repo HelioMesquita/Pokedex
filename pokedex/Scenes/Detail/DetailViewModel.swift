@@ -8,6 +8,7 @@
 import Foundation
 
 protocol DetailViewModelProtocol {
+    var detailPokemon: DetailModel? { get set }
     func loadDetail()
 }
 
@@ -16,6 +17,8 @@ class DetailViewModel: DetailViewModelProtocol {
     
     let pokemon: FeedModel.Pokemon
     let service: ServiceProtocol
+    
+    var detailPokemon: DetailModel?
     
     init(pokemon: FeedModel.Pokemon, service: ServiceProtocol = Service()) {
         self.service = service
@@ -26,6 +29,7 @@ class DetailViewModel: DetailViewModelProtocol {
         Task { @MainActor in
             do {
                 let pokemon = try await service.execute(DetailRequest(id: pokemon.getId), builder: DetailBuilder())
+                detailPokemon = pokemon
                 print(pokemon)
             } catch {
                 print("Error when loading pokemons. Code: \(error.localizedDescription)")
