@@ -15,6 +15,7 @@ class DetailResponse: Decodable {
     let types: [TypesResponse]
     let abilities: [AbilitiesResponse]
     let sprites: SpriteResponse
+    let height: Double
     
     class StatsResponse: Decodable {
         let base_stat: Double

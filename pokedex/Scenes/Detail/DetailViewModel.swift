@@ -15,7 +15,7 @@ protocol DetailViewModelProtocol {
 @Observable
 class DetailViewModel: DetailViewModelProtocol {
     
-    let pokemon: FeedModel.Pokemon
+    var pokemon: FeedModel.Pokemon
     let service: ServiceProtocol
     
     var detailPokemon: DetailModel?

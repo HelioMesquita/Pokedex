@@ -7,22 +7,32 @@
 
 import Foundation
 
-class DetailModel {
+class DetailModel: Identifiable {
     let name: String
     let order: Int
     let weight: Double
-    let types: [String]
-    let abilities: [String]
+    let types: [PokemonType]
+    let abilities: [PokemonAbility]
     let stats: [PokemonStats]
     let image: String
+    let height: Double
+    
+    var getWeight: String {
+        return (weight/10).formatted() + " Kg"
+    }
+    
+    var getHeight: String {
+        return (height*10).formatted() + " cm"
+    }
     
     init(name: String, 
          order: Int,
          weight: Double,
-         types: [String],
-         abilities: [String],
+         types: [PokemonType],
+         abilities: [PokemonAbility],
          stats: [PokemonStats],
-         image: String) {
+         image: String,
+         height: Double) {
         self.name = name
         self.order = order
         self.weight = weight
@@ -30,9 +40,26 @@ class DetailModel {
         self.abilities = abilities
         self.stats = stats
         self.image = image
+        self.height = height
     }
     
-    class PokemonStats {
+    class PokemonType: Identifiable {
+        let name: String
+        
+        init(name: String) {
+            self.name = name
+        }
+    }
+    
+    class PokemonAbility: Identifiable {
+        let name: String
+        
+        init(name: String) {
+            self.name = name
+        }
+    }
+    
+    class PokemonStats: Identifiable {
         let base: Double
         let name: String
         
