@@ -25,9 +25,9 @@ struct DetailView: View {
                     Spacer()
                     WebImage(url: URL(string: viewModel.detailPokemon?.image ?? ""))
                         .onSuccess { image, _, _ in
-                            if let averageColor = AverageColorUtility.getAverageColor(for: image, side: .bottom) {
+                            if let color = image.averageColor {
                                 DispatchQueue.main.async {
-                                    backgroundColor = Color(averageColor)
+                                    backgroundColor = Color(color.withAlphaComponent(0.8))
                                 }
                             }
                         }
@@ -57,8 +57,11 @@ struct DetailView: View {
                                 )
                         }
                     }
-                    .padding(.bottom, 70)
-                }.frame(height: 80)
+                }
+                    .frame(height: 80)
+                Rectangle()
+                    .fill(backgroundColor)
+                    .frame(height: 20)
             }
             VStack {
                 Text("About")

@@ -56,8 +56,10 @@ struct FeedPokemonView: View {
                 Spacer()
                 WebImage(url: URL(string: pokemon.imageURL))
                     .onSuccess { image, _, _ in
-                            if let averageColor = AverageColorUtility.getAverageColor(for: image, side: .bottom) {
-                                backgroundColor = Color(averageColor)
+                            if let color = image.averageColor {
+                                DispatchQueue.main.async {
+                                    backgroundColor = Color(color.withAlphaComponent(0.8))
+                                }
                             }
                         }
                     .resizable()
