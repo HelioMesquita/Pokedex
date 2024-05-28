@@ -7,13 +7,15 @@ packages:
 targets:
   Pokedex:
     type: application
-    platform: visionOS
+    platform: [visionOS, iOS]
     sources:
       - path: Pokedex/
     settings:
       base:
         TARGETED_DEVICE_FAMILY: "1,2,7"
         INFOPLIST_FILE: Pokedex/Resources/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.pokedex
+        PRODUCT_BUNDLE_IDENTIFIER: com.pokedex.helio
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator xros xrsimulator"
+        SUPPORTS_MACCATALYST: NO;
     dependencies:
       - package: SDWebImageSwiftUI

@@ -3,55 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00397A11516594D37F25E07E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97D33302A92542065EEDEC0 /* Service.swift */; };
-		01EBA01796C41E9B1FED9DBB /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A19C54C3618E0FEB5C29D /* DetailBuilder.swift */; };
-		0858A80109C21C00D16A5D08 /* DetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6498A4FA9C37AC2D061A6B2 /* DetailRequest.swift */; };
-		0DBF33B5D94AD4DEC9D5DDFF /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA7DE3F4161F3AEACC0F82 /* RequestProvider.swift */; };
-		16E5F4912C063C5800DC536D /* HighReliefImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E5F4902C063C5800DC536D /* HighReliefImage.swift */; };
-		16E5F4932C063DAC00DC536D /* FeedPokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E5F4922C063DAC00DC536D /* FeedPokemonCell.swift */; };
-		16E5F4952C063DE600DC536D /* DetailLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E5F4942C063DE600DC536D /* DetailLeftView.swift */; };
-		16E5F4972C06458300DC536D /* DetailRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E5F4962C06458300DC536D /* DetailRightView.swift */; };
-		16E5F4A32C06797E00DC536D /* Pokedex3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 16E5F4A22C06797E00DC536D /* Pokedex3.mlmodel */; };
-		1AD1DAC171937FDCC01EFC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3B8D66A538B841492AB38C /* Assets.xcassets */; };
-		1BA56FA3F9C46C6D6777D03E /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA28C1AE9B64E1DA929F2AE /* RequestProtocol.swift */; };
-		1C9CD0F945E20F32DE106B6C /* AverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C956237D7654FD1EDA4DFF8 /* AverageColor.swift */; };
-		202CF60EDDB1B866FA80B204 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A5D9D85DFE1BA2ACB36EA1 /* CustomFont.swift */; };
-		2066A626A75906EE1648020C /* fontawesome-solid.otf in Resources */ = {isa = PBXBuildFile; fileRef = 838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */; };
-		2D64F38B53B609763E0B78AF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B3CE8F32DFB9EF363F703 /* DetailView.swift */; };
-		2FD65B6E5DE8D5CEB3368731 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A976546D3AF9B434D533392 /* FeedViewModel.swift */; };
-		47203DC2C643000C5648A268 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E22D590ACA5C14EC44143B1 /* DetailViewModel.swift */; };
-		52497F2F3D638D7E5932BA3D /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D8A24529FAE16737727AA /* DetailModel.swift */; };
-		57FB3B3EAA0085B51BA51BC9 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0E1245977827DAA19262A /* ServiceProtocol.swift */; };
-		5E14DBFB45C86852CFF7C1CF /* DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102C42A60381383FBF8D98D /* DetailResponse.swift */; };
-		61284BC1AC0C2B7B34C81827 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DB3BFF9797C9FB65AC623 /* Preview Assets.xcassets */; };
-		816FAFA689264F435C83219C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFA05B4960748B453603D9 /* FeedView.swift */; };
-		8ABFE6B006BFE0FB393ADE44 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33FC490A30AEA147732E1B0 /* RequestError.swift */; };
-		92FEF72C2A347299B03FD001 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670103E9AA60B094AB9AB201 /* AppCoordinator.swift */; };
-		96501884C8C6AFC1E4AB2EE7 /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D2A0520A16F6E89AD52E04 /* FeedResponse.swift */; };
-		A589CCBE6C589CE41686495A /* FeedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443BB5BC5075251082B2B7F /* FeedRequest.swift */; };
-		B09044356637969C49765806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3D70F9F2DBC64B8B21B6 /* AppDelegate.swift */; };
-		C83B7E350632465DEF916FAE /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF40DD4877B4DB1CAB5176 /* FeedModel.swift */; };
-		CE2549FDD85313C89923694B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B7522973C5728D221E175934 /* SDWebImageSwiftUI */; };
-		D11F1A2DD3E64C58CA69B398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC79E045F031762702073DE4 /* SceneDelegate.swift */; };
-		DC758EA216D5B0C41563684A /* HttpVerb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201B01222AEDC5F65222303 /* HttpVerb.swift */; };
-		E4B0963B35AEDA40B2EA4144 /* FeedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFECE76FE4EE1746F6B264E /* FeedBuilder.swift */; };
-		F52801E6685A234D716059ED /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561C97B34896A1840EE0A9B /* BuilderProtocol.swift */; };
+		030F10D04D025C506A280FCC /* DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102C42A60381383FBF8D98D /* DetailResponse.swift */; };
+		0ACD51C7E99E6BD5E13B38C8 /* fontawesome-solid.otf in Resources */ = {isa = PBXBuildFile; fileRef = 838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */; };
+		0B6722B523D476809DEFB758 /* FeedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443BB5BC5075251082B2B7F /* FeedRequest.swift */; };
+		0EC5ED8CACE26E5C255F9C8A /* HttpVerb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201B01222AEDC5F65222303 /* HttpVerb.swift */; };
+		16E54C78A3A859A0A9812E25 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFA05B4960748B453603D9 /* FeedView.swift */; };
+		171C523566D68B9FB7CBD432 /* FeedPokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECF1C4C3F153FA08D772BED /* FeedPokemonCell.swift */; };
+		186DB35B97C4453669921EBB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670103E9AA60B094AB9AB201 /* AppCoordinator.swift */; };
+		196F96675A99563E6EC8854A /* DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102C42A60381383FBF8D98D /* DetailResponse.swift */; };
+		1C15169C7A795110F3365924 /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA7DE3F4161F3AEACC0F82 /* RequestProvider.swift */; };
+		1C3A8503EF131AE6D629848C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC79E045F031762702073DE4 /* SceneDelegate.swift */; };
+		21E6D7CC7A026F05EB5EFD85 /* AverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C956237D7654FD1EDA4DFF8 /* AverageColor.swift */; };
+		235FF5D542AE924F67B42016 /* FeedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443BB5BC5075251082B2B7F /* FeedRequest.swift */; };
+		24EA43A67951CE5A261DBDBA /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33FC490A30AEA147732E1B0 /* RequestError.swift */; };
+		26BCB2D2A77BCC7AD7438AF8 /* FeedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFECE76FE4EE1746F6B264E /* FeedBuilder.swift */; };
+		2AE847214145F4D44105B868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3D70F9F2DBC64B8B21B6 /* AppDelegate.swift */; };
+		2B5E23038FF262292033E420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD3D70F9F2DBC64B8B21B6 /* AppDelegate.swift */; };
+		2D9EE6228604CABB5AFA8975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3B8D66A538B841492AB38C /* Assets.xcassets */; };
+		2E44533D2C402C36839F640B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F55F8AD30BCF41E36C09DEB0 /* SDWebImageSwiftUI */; };
+		2F39A1A917D3FAD191D4776D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DB3BFF9797C9FB65AC623 /* Preview Assets.xcassets */; };
+		364FAE187A49EA8D412F64A0 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF40DD4877B4DB1CAB5176 /* FeedModel.swift */; };
+		389CE5B15A412CFC44E1193A /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0E1245977827DAA19262A /* ServiceProtocol.swift */; };
+		3BA90B077A23DA9C182D65ED /* Pokedex3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F6444E501D11AA8F3AE61BC3 /* Pokedex3.mlmodel */; };
+		40C653C9D8F3E7E34BF1AC09 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561C97B34896A1840EE0A9B /* BuilderProtocol.swift */; };
+		4341D2A9C39D0A2ED3FCED7D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B3CE8F32DFB9EF363F703 /* DetailView.swift */; };
+		449F30304187AA4BD9203C28 /* HttpVerb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201B01222AEDC5F65222303 /* HttpVerb.swift */; };
+		4C87ED2F950B9C223402EDAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC79E045F031762702073DE4 /* SceneDelegate.swift */; };
+		4EDBDDB1DDF183082C21F0CC /* fontawesome-solid.otf in Resources */ = {isa = PBXBuildFile; fileRef = 838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */; };
+		54F16C23F267AD1AE59642A6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97D33302A92542065EEDEC0 /* Service.swift */; };
+		5F992FFDB88D34BB76021EE7 /* DetailLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE6DD0AE85B537435C9A572 /* DetailLeftView.swift */; };
+		5F9BB0968EC6E8648DD548E6 /* FeedPokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECF1C4C3F153FA08D772BED /* FeedPokemonCell.swift */; };
+		644AAC0A1D7F53FB214A4CAF /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA7DE3F4161F3AEACC0F82 /* RequestProvider.swift */; };
+		6794F5BD755FDE8A593D3BAB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97D33302A92542065EEDEC0 /* Service.swift */; };
+		6815E3A793D578A13AFF253C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670103E9AA60B094AB9AB201 /* AppCoordinator.swift */; };
+		726190930A307BB5A3CABE13 /* DetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6498A4FA9C37AC2D061A6B2 /* DetailRequest.swift */; };
+		74622CA68F5F005E55CCD649 /* HighReliefImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB4EFE9A2C276D7095D256 /* HighReliefImage.swift */; };
+		74992D7615E61A5CD97CED69 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33FC490A30AEA147732E1B0 /* RequestError.swift */; };
+		787FBBEAD6D994CBADA8342A /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D2A0520A16F6E89AD52E04 /* FeedResponse.swift */; };
+		7DE0E9FB9D0491AEF0B1C569 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561C97B34896A1840EE0A9B /* BuilderProtocol.swift */; };
+		85C823ACA564B18F29DB638B /* FeedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFECE76FE4EE1746F6B264E /* FeedBuilder.swift */; };
+		88CDCF3C0C19519152AF388B /* DetailLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE6DD0AE85B537435C9A572 /* DetailLeftView.swift */; };
+		96F682F23CF56182A02C3715 /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A19C54C3618E0FEB5C29D /* DetailBuilder.swift */; };
+		9A25B653E9241D37E70A2CC3 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A976546D3AF9B434D533392 /* FeedViewModel.swift */; };
+		9AD2D8055A509F574E84AAB6 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E22D590ACA5C14EC44143B1 /* DetailViewModel.swift */; };
+		9EEAF6909DC55A486CC62B9A /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A5D9D85DFE1BA2ACB36EA1 /* CustomFont.swift */; };
+		A575645667B7418D80259354 /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A19C54C3618E0FEB5C29D /* DetailBuilder.swift */; };
+		A76E0528810B2775038EDD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3B8D66A538B841492AB38C /* Assets.xcassets */; };
+		ACC9ABEE31B13AF3D517EC80 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA28C1AE9B64E1DA929F2AE /* RequestProtocol.swift */; };
+		B0FA16E6EF60A89FB1E7106C /* DetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6498A4FA9C37AC2D061A6B2 /* DetailRequest.swift */; };
+		B23BC9CD39CDFDD4348323DD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B3CE8F32DFB9EF363F703 /* DetailView.swift */; };
+		B6C990D6766AFB0C05F6C93E /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E22D590ACA5C14EC44143B1 /* DetailViewModel.swift */; };
+		BB920C543E26AE8A08B275A7 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D8A24529FAE16737727AA /* DetailModel.swift */; };
+		C0E17A227146F58268CBCF93 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AD5782759CCCE00F5701F73F /* SDWebImageSwiftUI */; };
+		C5A2E091C4592971FB5E770D /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF0E1245977827DAA19262A /* ServiceProtocol.swift */; };
+		C97F123DC6D6E9833E741DC0 /* FeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D2A0520A16F6E89AD52E04 /* FeedResponse.swift */; };
+		CCDDFF58F312986B6F110091 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA28C1AE9B64E1DA929F2AE /* RequestProtocol.swift */; };
+		D0A3C30A78CB24DC12ECF1F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DB3BFF9797C9FB65AC623 /* Preview Assets.xcassets */; };
+		D1401ED1A0F8E3C9488AD22E /* DetailRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F91447CB6445DD77CD3149 /* DetailRightView.swift */; };
+		DB00762322FBC071CDF9F132 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D8A24529FAE16737727AA /* DetailModel.swift */; };
+		DB0DF8B8ABE844F7FA233508 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF40DD4877B4DB1CAB5176 /* FeedModel.swift */; };
+		E3ECE62EF6C86E62B3CD66E6 /* AverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C956237D7654FD1EDA4DFF8 /* AverageColor.swift */; };
+		EEF11EDF34B666B0542B8463 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A976546D3AF9B434D533392 /* FeedViewModel.swift */; };
+		F13C4187C56DC6900B423B68 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFA05B4960748B453603D9 /* FeedView.swift */; };
+		F24FFD4E90DDC822DE50276F /* Pokedex3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F6444E501D11AA8F3AE61BC3 /* Pokedex3.mlmodel */; };
+		F9B696E2CCF38DF5F855E84A /* DetailRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F91447CB6445DD77CD3149 /* DetailRightView.swift */; };
+		FB5A67B4A55B036454B2FB5B /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A5D9D85DFE1BA2ACB36EA1 /* CustomFont.swift */; };
+		FCDF91D0378F6EE99137AA5E /* HighReliefImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB4EFE9A2C276D7095D256 /* HighReliefImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08CB4EFE9A2C276D7095D256 /* HighReliefImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighReliefImage.swift; sourceTree = "<group>"; };
 		0A976546D3AF9B434D533392 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		1102C42A60381383FBF8D98D /* DetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponse.swift; sourceTree = "<group>"; };
-		16E5F4902C063C5800DC536D /* HighReliefImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HighReliefImage.swift; path = pokedex/Components/HighReliefImage.swift; sourceTree = SOURCE_ROOT; };
-		16E5F4922C063DAC00DC536D /* FeedPokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedPokemonCell.swift; path = pokedex/Scenes/Feed/FeedPokemonCell.swift; sourceTree = SOURCE_ROOT; };
-		16E5F4942C063DE600DC536D /* DetailLeftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailLeftView.swift; path = pokedex/Scenes/Detail/DetailLeftView.swift; sourceTree = SOURCE_ROOT; };
-		16E5F4962C06458300DC536D /* DetailRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailRightView.swift; path = pokedex/Scenes/Detail/DetailRightView.swift; sourceTree = SOURCE_ROOT; };
-		16E5F4A22C06797E00DC536D /* Pokedex3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pokedex3.mlmodel; sourceTree = "<group>"; };
 		1A3B8D66A538B841492AB38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		232BDFE5DBA68B07E07B5C18 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3443BB5BC5075251082B2B7F /* FeedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRequest.swift; sourceTree = "<group>"; };
 		37CF40DD4877B4DB1CAB5176 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
 		5561C97B34896A1840EE0A9B /* BuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderProtocol.swift; sourceTree = "<group>"; };
@@ -65,40 +93,46 @@
 		768112ADAA5170E9C28B0DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		76A5D9D85DFE1BA2ACB36EA1 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		7BA28C1AE9B64E1DA929F2AE /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
-		838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-solid.otf"; sourceTree = "<group>"; };
+		80F91447CB6445DD77CD3149 /* DetailRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRightView.swift; sourceTree = "<group>"; };
+		838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */ = {isa = PBXFileReference; path = "fontawesome-solid.otf"; sourceTree = "<group>"; };
 		8DF0E1245977827DAA19262A /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
 		9BFECE76FE4EE1746F6B264E /* FeedBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBuilder.swift; sourceTree = "<group>"; };
+		9ECF1C4C3F153FA08D772BED /* FeedPokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPokemonCell.swift; sourceTree = "<group>"; };
+		A1367B3744DEDBE76F70C128 /* Pokedex.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EA7DE3F4161F3AEACC0F82 /* RequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
 		BC79E045F031762702073DE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFE6DD0AE85B537435C9A572 /* DetailLeftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLeftView.swift; sourceTree = "<group>"; };
 		C69D8A24529FAE16737727AA /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
 		C97D33302A92542065EEDEC0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		D2D2A0520A16F6E89AD52E04 /* FeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResponse.swift; sourceTree = "<group>"; };
 		D52A19C54C3618E0FEB5C29D /* DetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBuilder.swift; sourceTree = "<group>"; };
+		DF74DE2FA1AA869ED71E5902 /* Pokedex.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4DB3BFF9797C9FB65AC623 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F33FC490A30AEA147732E1B0 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		F6444E501D11AA8F3AE61BC3 /* Pokedex3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pokedex3.mlmodel; sourceTree = "<group>"; };
 		F6498A4FA9C37AC2D061A6B2 /* DetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1734804CF83B1A5BEAD73B75 /* Frameworks */ = {
+		4923DA5BBE2CE8725AC50B45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2549FDD85313C89923694B /* SDWebImageSwiftUI in Frameworks */,
+				2E44533D2C402C36839F640B /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F71F673D608B7FDC1D7C41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E17A227146F58268CBCF93 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16E5F48F2C063C4C00DC536D /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				16E5F4902C063C5800DC536D /* HighReliefImage.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		24F5BCC72892E44DBEB08994 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,9 +167,9 @@
 		584B15FB74CF544E5A557B41 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				16E5F48F2C063C4C00DC536D /* Components */,
 				70AD3D70F9F2DBC64B8B21B6 /* AppDelegate.swift */,
 				BC79E045F031762702073DE4 /* SceneDelegate.swift */,
+				EA600A44E540E41602F3E24B /* Components */,
 				E6AB78C20B82639336FA0E51 /* Coordinator */,
 				25FB8C1AC3442E43006DEB59 /* Network */,
 				615B16D5530067491880A080 /* Resources */,
@@ -150,11 +184,11 @@
 			children = (
 				9BFECE76FE4EE1746F6B264E /* FeedBuilder.swift */,
 				37CF40DD4877B4DB1CAB5176 /* FeedModel.swift */,
+				9ECF1C4C3F153FA08D772BED /* FeedPokemonCell.swift */,
 				3443BB5BC5075251082B2B7F /* FeedRequest.swift */,
 				D2D2A0520A16F6E89AD52E04 /* FeedResponse.swift */,
 				75CFA05B4960748B453603D9 /* FeedView.swift */,
 				0A976546D3AF9B434D533392 /* FeedViewModel.swift */,
-				16E5F4922C063DAC00DC536D /* FeedPokemonCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -163,9 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				1A3B8D66A538B841492AB38C /* Assets.xcassets */,
-				16E5F4A22C06797E00DC536D /* Pokedex3.mlmodel */,
 				838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */,
 				768112ADAA5170E9C28B0DA9 /* Info.plist */,
+				F6444E501D11AA8F3AE61BC3 /* Pokedex3.mlmodel */,
 				24F5BCC72892E44DBEB08994 /* Preview Content */,
 			);
 			path = Resources;
@@ -184,13 +218,13 @@
 			isa = PBXGroup;
 			children = (
 				D52A19C54C3618E0FEB5C29D /* DetailBuilder.swift */,
+				BFE6DD0AE85B537435C9A572 /* DetailLeftView.swift */,
 				C69D8A24529FAE16737727AA /* DetailModel.swift */,
 				F6498A4FA9C37AC2D061A6B2 /* DetailRequest.swift */,
 				1102C42A60381383FBF8D98D /* DetailResponse.swift */,
+				80F91447CB6445DD77CD3149 /* DetailRightView.swift */,
 				575B3CE8F32DFB9EF363F703 /* DetailView.swift */,
 				5E22D590ACA5C14EC44143B1 /* DetailViewModel.swift */,
-				16E5F4942C063DE600DC536D /* DetailLeftView.swift */,
-				16E5F4962C06458300DC536D /* DetailRightView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -206,7 +240,8 @@
 		CD7879169A7D11E3C86BF4B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				232BDFE5DBA68B07E07B5C18 /* Pokedex.app */,
+				A1367B3744DEDBE76F70C128 /* Pokedex.app */,
+				DF74DE2FA1AA869ED71E5902 /* Pokedex.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,27 +254,62 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		EA600A44E540E41602F3E24B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				08CB4EFE9A2C276D7095D256 /* HighReliefImage.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		"TEMP_B08778AA-0873-471E-8B52-E9B4929E74FA" /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8AADF6CAE729A3D698F1F37 /* Pokedex */ = {
+		1691C0C8D24EC3EEAFD48231 /* Pokedex_visionOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD8DFB74652680E911DF0378 /* Build configuration list for PBXNativeTarget "Pokedex" */;
+			buildConfigurationList = AF0CCD5D02C9D71189E0C27E /* Build configuration list for PBXNativeTarget "Pokedex_visionOS" */;
 			buildPhases = (
-				B243032FD35329282E6C881F /* Sources */,
-				C3331C60F150C4D13E161725 /* Resources */,
-				1734804CF83B1A5BEAD73B75 /* Frameworks */,
+				6BA07344EE1E89AF1E2EAE22 /* Sources */,
+				1D72CA7BCEFF082F6960414C /* Resources */,
+				4923DA5BBE2CE8725AC50B45 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pokedex;
+			name = Pokedex_visionOS;
 			packageProductDependencies = (
-				B7522973C5728D221E175934 /* SDWebImageSwiftUI */,
+				F55F8AD30BCF41E36C09DEB0 /* SDWebImageSwiftUI */,
 			);
-			productName = Pokedex;
-			productReference = 232BDFE5DBA68B07E07B5C18 /* Pokedex.app */;
+			productName = Pokedex_visionOS;
+			productReference = DF74DE2FA1AA869ED71E5902 /* Pokedex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7DAFF3C3B9996B136BA01AE /* Pokedex_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50ED5D53F7E4FCE01ECDBC4 /* Build configuration list for PBXNativeTarget "Pokedex_iOS" */;
+			buildPhases = (
+				7023F92362709233DB28BFAF /* Sources */,
+				A3761918C4FB277CD1890752 /* Resources */,
+				9F71F673D608B7FDC1D7C41C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pokedex_iOS;
+			packageProductDependencies = (
+				AD5782759CCCE00F5701F73F /* SDWebImageSwiftUI */,
+			);
+			productName = Pokedex_iOS;
+			productReference = A1367B3744DEDBE76F70C128 /* Pokedex.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -250,8 +320,10 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
 			};
-			buildConfigurationList = 9939347F5639D6C0831D9968 /* Build configuration list for PBXProject "pokedex" */;
+			buildConfigurationList = 9939347F5639D6C0831D9968 /* Build configuration list for PBXProject "Pokedex" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -266,58 +338,105 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8AADF6CAE729A3D698F1F37 /* Pokedex */,
+				E7DAFF3C3B9996B136BA01AE /* Pokedex_iOS */,
+				1691C0C8D24EC3EEAFD48231 /* Pokedex_visionOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C3331C60F150C4D13E161725 /* Resources */ = {
+		1D72CA7BCEFF082F6960414C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD1DAC171937FDCC01EFC95 /* Assets.xcassets in Resources */,
-				61284BC1AC0C2B7B34C81827 /* Preview Assets.xcassets in Resources */,
-				2066A626A75906EE1648020C /* fontawesome-solid.otf in Resources */,
+				2D9EE6228604CABB5AFA8975 /* Assets.xcassets in Resources */,
+				2F39A1A917D3FAD191D4776D /* Preview Assets.xcassets in Resources */,
+				0ACD51C7E99E6BD5E13B38C8 /* fontawesome-solid.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3761918C4FB277CD1890752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76E0528810B2775038EDD0D /* Assets.xcassets in Resources */,
+				D0A3C30A78CB24DC12ECF1F9 /* Preview Assets.xcassets in Resources */,
+				4EDBDDB1DDF183082C21F0CC /* fontawesome-solid.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B243032FD35329282E6C881F /* Sources */ = {
+		6BA07344EE1E89AF1E2EAE22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92FEF72C2A347299B03FD001 /* AppCoordinator.swift in Sources */,
-				B09044356637969C49765806 /* AppDelegate.swift in Sources */,
-				1C9CD0F945E20F32DE106B6C /* AverageColor.swift in Sources */,
-				F52801E6685A234D716059ED /* BuilderProtocol.swift in Sources */,
-				202CF60EDDB1B866FA80B204 /* CustomFont.swift in Sources */,
-				01EBA01796C41E9B1FED9DBB /* DetailBuilder.swift in Sources */,
-				16E5F4932C063DAC00DC536D /* FeedPokemonCell.swift in Sources */,
-				52497F2F3D638D7E5932BA3D /* DetailModel.swift in Sources */,
-				0858A80109C21C00D16A5D08 /* DetailRequest.swift in Sources */,
-				5E14DBFB45C86852CFF7C1CF /* DetailResponse.swift in Sources */,
-				2D64F38B53B609763E0B78AF /* DetailView.swift in Sources */,
-				47203DC2C643000C5648A268 /* DetailViewModel.swift in Sources */,
-				E4B0963B35AEDA40B2EA4144 /* FeedBuilder.swift in Sources */,
-				16E5F4972C06458300DC536D /* DetailRightView.swift in Sources */,
-				C83B7E350632465DEF916FAE /* FeedModel.swift in Sources */,
-				A589CCBE6C589CE41686495A /* FeedRequest.swift in Sources */,
-				96501884C8C6AFC1E4AB2EE7 /* FeedResponse.swift in Sources */,
-				816FAFA689264F435C83219C /* FeedView.swift in Sources */,
-				16E5F4912C063C5800DC536D /* HighReliefImage.swift in Sources */,
-				2FD65B6E5DE8D5CEB3368731 /* FeedViewModel.swift in Sources */,
-				DC758EA216D5B0C41563684A /* HttpVerb.swift in Sources */,
-				8ABFE6B006BFE0FB393ADE44 /* RequestError.swift in Sources */,
-				1BA56FA3F9C46C6D6777D03E /* RequestProtocol.swift in Sources */,
-				0DBF33B5D94AD4DEC9D5DDFF /* RequestProvider.swift in Sources */,
-				16E5F4A32C06797E00DC536D /* Pokedex3.mlmodel in Sources */,
-				16E5F4952C063DE600DC536D /* DetailLeftView.swift in Sources */,
-				D11F1A2DD3E64C58CA69B398 /* SceneDelegate.swift in Sources */,
-				00397A11516594D37F25E07E /* Service.swift in Sources */,
-				57FB3B3EAA0085B51BA51BC9 /* ServiceProtocol.swift in Sources */,
+				186DB35B97C4453669921EBB /* AppCoordinator.swift in Sources */,
+				2AE847214145F4D44105B868 /* AppDelegate.swift in Sources */,
+				E3ECE62EF6C86E62B3CD66E6 /* AverageColor.swift in Sources */,
+				7DE0E9FB9D0491AEF0B1C569 /* BuilderProtocol.swift in Sources */,
+				FB5A67B4A55B036454B2FB5B /* CustomFont.swift in Sources */,
+				96F682F23CF56182A02C3715 /* DetailBuilder.swift in Sources */,
+				5F992FFDB88D34BB76021EE7 /* DetailLeftView.swift in Sources */,
+				BB920C543E26AE8A08B275A7 /* DetailModel.swift in Sources */,
+				B0FA16E6EF60A89FB1E7106C /* DetailRequest.swift in Sources */,
+				030F10D04D025C506A280FCC /* DetailResponse.swift in Sources */,
+				F9B696E2CCF38DF5F855E84A /* DetailRightView.swift in Sources */,
+				B23BC9CD39CDFDD4348323DD /* DetailView.swift in Sources */,
+				B6C990D6766AFB0C05F6C93E /* DetailViewModel.swift in Sources */,
+				85C823ACA564B18F29DB638B /* FeedBuilder.swift in Sources */,
+				364FAE187A49EA8D412F64A0 /* FeedModel.swift in Sources */,
+				171C523566D68B9FB7CBD432 /* FeedPokemonCell.swift in Sources */,
+				235FF5D542AE924F67B42016 /* FeedRequest.swift in Sources */,
+				C97F123DC6D6E9833E741DC0 /* FeedResponse.swift in Sources */,
+				16E54C78A3A859A0A9812E25 /* FeedView.swift in Sources */,
+				EEF11EDF34B666B0542B8463 /* FeedViewModel.swift in Sources */,
+				FCDF91D0378F6EE99137AA5E /* HighReliefImage.swift in Sources */,
+				449F30304187AA4BD9203C28 /* HttpVerb.swift in Sources */,
+				F24FFD4E90DDC822DE50276F /* Pokedex3.mlmodel in Sources */,
+				74992D7615E61A5CD97CED69 /* RequestError.swift in Sources */,
+				CCDDFF58F312986B6F110091 /* RequestProtocol.swift in Sources */,
+				644AAC0A1D7F53FB214A4CAF /* RequestProvider.swift in Sources */,
+				4C87ED2F950B9C223402EDAA /* SceneDelegate.swift in Sources */,
+				6794F5BD755FDE8A593D3BAB /* Service.swift in Sources */,
+				389CE5B15A412CFC44E1193A /* ServiceProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7023F92362709233DB28BFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6815E3A793D578A13AFF253C /* AppCoordinator.swift in Sources */,
+				2B5E23038FF262292033E420 /* AppDelegate.swift in Sources */,
+				21E6D7CC7A026F05EB5EFD85 /* AverageColor.swift in Sources */,
+				40C653C9D8F3E7E34BF1AC09 /* BuilderProtocol.swift in Sources */,
+				9EEAF6909DC55A486CC62B9A /* CustomFont.swift in Sources */,
+				A575645667B7418D80259354 /* DetailBuilder.swift in Sources */,
+				88CDCF3C0C19519152AF388B /* DetailLeftView.swift in Sources */,
+				DB00762322FBC071CDF9F132 /* DetailModel.swift in Sources */,
+				726190930A307BB5A3CABE13 /* DetailRequest.swift in Sources */,
+				196F96675A99563E6EC8854A /* DetailResponse.swift in Sources */,
+				D1401ED1A0F8E3C9488AD22E /* DetailRightView.swift in Sources */,
+				4341D2A9C39D0A2ED3FCED7D /* DetailView.swift in Sources */,
+				9AD2D8055A509F574E84AAB6 /* DetailViewModel.swift in Sources */,
+				26BCB2D2A77BCC7AD7438AF8 /* FeedBuilder.swift in Sources */,
+				DB0DF8B8ABE844F7FA233508 /* FeedModel.swift in Sources */,
+				5F9BB0968EC6E8648DD548E6 /* FeedPokemonCell.swift in Sources */,
+				0B6722B523D476809DEFB758 /* FeedRequest.swift in Sources */,
+				787FBBEAD6D994CBADA8342A /* FeedResponse.swift in Sources */,
+				F13C4187C56DC6900B423B68 /* FeedView.swift in Sources */,
+				9A25B653E9241D37E70A2CC3 /* FeedViewModel.swift in Sources */,
+				74622CA68F5F005E55CCD649 /* HighReliefImage.swift in Sources */,
+				0EC5ED8CACE26E5C255F9C8A /* HttpVerb.swift in Sources */,
+				3BA90B077A23DA9C182D65ED /* Pokedex3.mlmodel in Sources */,
+				24EA43A67951CE5A261DBDBA /* RequestError.swift in Sources */,
+				ACC9ABEE31B13AF3D517EC80 /* RequestProtocol.swift in Sources */,
+				1C15169C7A795110F3365924 /* RequestProvider.swift in Sources */,
+				1C3A8503EF131AE6D629848C /* SceneDelegate.swift in Sources */,
+				54F16C23F267AD1AE59642A6 /* Service.swift in Sources */,
+				C5A2E091C4592971FB5E770D /* ServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,45 +498,27 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = xros;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		2B46A2117B15EAD05A9FCB86 /* Debug */ = {
+		7EA26334152457012DC5111D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XJ3PM54JPR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pokedex/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex.helio;
-				SDKROOT = xros;
+				PRODUCT_NAME = Pokedex;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-			};
-			name = Debug;
-		};
-		69B428B6D7B86E393757ED92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XJ3PM54JPR;
-				INFOPLIST_FILE = Pokedex/Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex.helio;
-				SDKROOT = xros;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = "NO;";
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
@@ -470,17 +571,71 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = xros;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
+		A38A8AF3B7CCB4B78896CE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pokedex/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex.helio;
+				PRODUCT_NAME = Pokedex;
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = "NO;";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		A8487B3C18E18184197A212B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Pokedex/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex.helio;
+				PRODUCT_NAME = Pokedex;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = "NO;";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CB26991DDA15CB61896A2E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pokedex/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex.helio;
+				PRODUCT_NAME = Pokedex;
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = "NO;";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9939347F5639D6C0831D9968 /* Build configuration list for PBXProject "pokedex" */ = {
+		9939347F5639D6C0831D9968 /* Build configuration list for PBXProject "Pokedex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B8EE91984B1D5B6BB33A663 /* Debug */,
@@ -489,11 +644,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BD8DFB74652680E911DF0378 /* Build configuration list for PBXNativeTarget "Pokedex" */ = {
+		AF0CCD5D02C9D71189E0C27E /* Build configuration list for PBXNativeTarget "Pokedex_visionOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B46A2117B15EAD05A9FCB86 /* Debug */,
-				69B428B6D7B86E393757ED92 /* Release */,
+				CB26991DDA15CB61896A2E7B /* Debug */,
+				A38A8AF3B7CCB4B78896CE11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D50ED5D53F7E4FCE01ECDBC4 /* Build configuration list for PBXNativeTarget "Pokedex_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8487B3C18E18184197A212B /* Debug */,
+				7EA26334152457012DC5111D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -512,7 +676,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B7522973C5728D221E175934 /* SDWebImageSwiftUI */ = {
+		AD5782759CCCE00F5701F73F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8880DFD9CBD4ADBB9D8C0934 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		F55F8AD30BCF41E36C09DEB0 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8880DFD9CBD4ADBB9D8C0934 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
