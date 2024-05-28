@@ -51,7 +51,7 @@
 		16E5F4962C06458300DC536D /* DetailRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailRightView.swift; path = pokedex/Scenes/Detail/DetailRightView.swift; sourceTree = SOURCE_ROOT; };
 		16E5F4A22C06797E00DC536D /* Pokedex3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pokedex3.mlmodel; sourceTree = "<group>"; };
 		1A3B8D66A538B841492AB38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		232BDFE5DBA68B07E07B5C18 /* Pokedex.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		232BDFE5DBA68B07E07B5C18 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3443BB5BC5075251082B2B7F /* FeedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRequest.swift; sourceTree = "<group>"; };
 		37CF40DD4877B4DB1CAB5176 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
 		5561C97B34896A1840EE0A9B /* BuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderProtocol.swift; sourceTree = "<group>"; };
@@ -390,13 +390,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJ3PM54JPR;
 				INFOPLIST_FILE = Pokedex/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex.helio;
 				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
@@ -405,13 +408,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJ3PM54JPR;
 				INFOPLIST_FILE = Pokedex/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokedex.helio;
 				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
