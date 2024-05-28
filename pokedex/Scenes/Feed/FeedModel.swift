@@ -24,6 +24,12 @@ class FeedModel {
         
         let id = UUID()
         
+        convenience init(predictionName: String) {
+            let name = "\(predictionName.split(separator: " ").first!)"
+            let url = "https://pokeapi.co/api/v2/pokemon/" + "\(predictionName.split(separator: " ").last!)/"
+            self.init(name: name, url: url)
+        }
+        
         var imageURL: String {
             return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/\(String(describing: getId)).png"
         }
