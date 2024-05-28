@@ -30,7 +30,6 @@ class DetailViewModel: DetailViewModelProtocol {
             do {
                 let pokemon = try await service.execute(DetailRequest(id: pokemon.getId), builder: DetailBuilder())
                 detailPokemon = pokemon
-                print(pokemon)
             } catch {
                 print("Error when loading pokemons. Code: \(error.localizedDescription)")
             }

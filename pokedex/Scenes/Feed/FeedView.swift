@@ -13,10 +13,7 @@ struct FeedView: View {
     @State var viewModel: FeedViewModelProtocol
     weak var coordinator: AppCoordinator?
     var columns: [GridItem] = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible()),
+        GridItem(.adaptive(minimum: 300, maximum: 300)),
     ]
     let height: CGFloat = 200
     
@@ -81,7 +78,7 @@ struct FeedPokemonView: View {
                 Spacer()
                 Spacer()
             }.clipShape(RoundedRectangle(cornerRadius: 12))
-            Text(pokemon.name.capitalized)
+            Text("\(pokemon.name.capitalized) #\(pokemon.getId)")
                 .font(.title2)
         }.clipped()
     }
@@ -90,8 +87,3 @@ struct FeedPokemonView: View {
 //#Preview(windowStyle: .automatic) {
 //    FeedView()
 //}
-
-
-
-
-

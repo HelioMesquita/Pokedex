@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		01EBA01796C41E9B1FED9DBB /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52A19C54C3618E0FEB5C29D /* DetailBuilder.swift */; };
 		0858A80109C21C00D16A5D08 /* DetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6498A4FA9C37AC2D061A6B2 /* DetailRequest.swift */; };
 		0DBF33B5D94AD4DEC9D5DDFF /* RequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EA7DE3F4161F3AEACC0F82 /* RequestProvider.swift */; };
+		165ABD252C061C36007F233C /* pokedex_ml.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 165ABD242C061C36007F233C /* pokedex_ml.mlmodel */; };
 		1AD1DAC171937FDCC01EFC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3B8D66A538B841492AB38C /* Assets.xcassets */; };
 		1BA56FA3F9C46C6D6777D03E /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA28C1AE9B64E1DA929F2AE /* RequestProtocol.swift */; };
 		1C9CD0F945E20F32DE106B6C /* AverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C956237D7654FD1EDA4DFF8 /* AverageColor.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		0A976546D3AF9B434D533392 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		1102C42A60381383FBF8D98D /* DetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponse.swift; sourceTree = "<group>"; };
+		165ABD242C061C36007F233C /* pokedex_ml.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = pokedex_ml.mlmodel; sourceTree = "<group>"; };
 		1A3B8D66A538B841492AB38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232BDFE5DBA68B07E07B5C18 /* Pokedex.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3443BB5BC5075251082B2B7F /* FeedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRequest.swift; sourceTree = "<group>"; };
@@ -55,7 +57,7 @@
 		768112ADAA5170E9C28B0DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		76A5D9D85DFE1BA2ACB36EA1 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		7BA28C1AE9B64E1DA929F2AE /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
-		838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */ = {isa = PBXFileReference; path = "fontawesome-solid.otf"; sourceTree = "<group>"; };
+		838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-solid.otf"; sourceTree = "<group>"; };
 		8DF0E1245977827DAA19262A /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
 		9BFECE76FE4EE1746F6B264E /* FeedBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBuilder.swift; sourceTree = "<group>"; };
 		A3EA7DE3F4161F3AEACC0F82 /* RequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProvider.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		615B16D5530067491880A080 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				165ABD242C061C36007F233C /* pokedex_ml.mlmodel */,
 				1A3B8D66A538B841492AB38C /* Assets.xcassets */,
 				838DE3BE8F6359FBAED29B15 /* fontawesome-solid.otf */,
 				768112ADAA5170E9C28B0DA9 /* Info.plist */,
@@ -227,10 +230,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
-			buildConfigurationList = 9939347F5639D6C0831D9968 /* Build configuration list for PBXProject "Pokedex" */;
+			buildConfigurationList = 9939347F5639D6C0831D9968 /* Build configuration list for PBXProject "pokedex" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -286,6 +287,7 @@
 				816FAFA689264F435C83219C /* FeedView.swift in Sources */,
 				2FD65B6E5DE8D5CEB3368731 /* FeedViewModel.swift in Sources */,
 				DC758EA216D5B0C41563684A /* HttpVerb.swift in Sources */,
+				165ABD252C061C36007F233C /* pokedex_ml.mlmodel in Sources */,
 				8ABFE6B006BFE0FB393ADE44 /* RequestError.swift in Sources */,
 				1BA56FA3F9C46C6D6777D03E /* RequestProtocol.swift in Sources */,
 				0DBF33B5D94AD4DEC9D5DDFF /* RequestProvider.swift in Sources */,
@@ -448,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9939347F5639D6C0831D9968 /* Build configuration list for PBXProject "Pokedex" */ = {
+		9939347F5639D6C0831D9968 /* Build configuration list for PBXProject "pokedex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B8EE91984B1D5B6BB33A663 /* Debug */,

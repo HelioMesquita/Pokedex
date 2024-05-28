@@ -29,7 +29,7 @@ class AppCoordinator: Coordinator {
         let view = FeedView(viewModel: viewModel, coordinator: self)
         
         let viewController = UIHostingController(rootView: view)
-        viewController.title = "Pokédex"
+        viewController.title = "Pokédex - Generation 1"
         navigationController.pushViewController(viewController, animated: false)
     }
     
@@ -38,7 +38,7 @@ class AppCoordinator: Coordinator {
         let view = DetailView(viewModel: viewModel, coordinator: self)
         
         let viewController = UIHostingController(rootView: view)
-        viewController.title = pokemon.name.capitalized
+        viewController.title = "\(pokemon.name.capitalized) #\(pokemon.getId)"
         navigationController.pushViewController(viewController, animated: false)
     }
 }

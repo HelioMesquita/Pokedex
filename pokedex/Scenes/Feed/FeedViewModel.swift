@@ -17,6 +17,7 @@ protocol FeedViewModelProtocol {
 @Observable
 class FeedViewModel: FeedViewModelProtocol {
     
+    let pokemonFirstGenNumber = 151
     var currentPage = 0
     var hasNextPage = false
     var list: [FeedModel.Pokemon] = []
@@ -38,14 +39,21 @@ class FeedViewModel: FeedViewModelProtocol {
                 let pokemonFeed = try await service.execute(FeedRequest(page: currentPage), builder: FeedBuilder())
                 hasNextPage = pokemonFeed.next != nil
                 list.append(contentsOf: pokemonFeed.results)
+                handlePokemonsFirstGen()
             } catch {
                 print("Error when loading pokemons. Code: \(error.localizedDescription)")
             }
         }
     }
     
+    func handlePokemonsFirstGen() {
+        if list.count > pokemonFirstGenNumber {
+            list.removeSubrange(pokemonFirstGenNumber...list.count-1)
+        }
+    }
+    
     func handleNextPage(pokemon: FeedModel.Pokemon) {
-        if pokemon == list.last && hasNextPage {
+        if pokemon == list.last && hasNextPage && list.count < pokemonFirstGenNumber {
             currentPage += 1
             fetchPokemonList()
         }

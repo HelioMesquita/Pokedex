@@ -14,55 +14,23 @@ struct DetailView: View {
     @State var backgroundColor = Color.clear
     @State var viewModel: DetailViewModelProtocol
     weak var coordinator: AppCoordinator?
-    let height: CGFloat = 100
     
     var body: some View {
         HStack {
-            VStack(spacing: 0) {
-                ZStack {
-                    Rectangle()
-                        .fill(backgroundColor)
-                    Spacer()
-                    WebImage(url: URL(string: viewModel.detailPokemon?.image ?? ""))
-                        .onSuccess { image, _, _ in
-                            if let color = image.averageColor {
-                                DispatchQueue.main.async {
-                                    backgroundColor = Color(color.withAlphaComponent(0.8))
-                                }
-                            }
-                        }
-                        .resizable()
-                        .aspectRatio(1.0, contentMode: .fit)
-                        .clipped()
-                        .padding(100)
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                }
-                ZStack {
-                    Rectangle()
-                        .fill(backgroundColor)
-                    HStack(spacing: 20) {
-                        ForEach(viewModel.detailPokemon?.types ?? []) { type in
-                            Text(type.name.capitalized)
-                                .font(.title2)
-                                .padding()
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 25)
-                                        .stroke(.white, lineWidth: 4)
-                                )
-                        }
-                    }
-                }
-                    .frame(height: 80)
-                Rectangle()
-                    .fill(backgroundColor)
-                    .frame(height: 20)
-            }
+            LeftView(viewModel: viewModel, backgroundColor: $backgroundColor)
+            RightView(viewModel: viewModel, backgroundColor: $backgroundColor)
+        }.onAppear {
+            viewModel.loadDetail()
+        }
+    }
+    
+    struct RightView: View {
+        
+        @State var viewModel: DetailViewModelProtocol
+        @Binding var backgroundColor: Color
+        let height: CGFloat = 100
+        
+        var body: some View {
             VStack {
                 Text("About")
                     .font(.title)
@@ -114,8 +82,60 @@ struct DetailView: View {
                 .padding(20)
                 .font(.title2)
             }
-        }.onAppear {
-            viewModel.loadDetail()
+        }
+    }
+    
+    struct LeftView: View {
+        
+        @State var viewModel: DetailViewModelProtocol
+        @Binding var backgroundColor: Color
+        
+        var body: some View {
+            VStack(spacing: 0) {
+                ZStack {
+                    Rectangle()
+                        .fill(backgroundColor)
+                    Spacer()
+                    WebImage(url: URL(string: viewModel.detailPokemon?.image ?? ""))
+                        .onSuccess { image, _, _ in
+                            if let color = image.averageColor {
+                                DispatchQueue.main.async {
+                                    backgroundColor = Color(color.withAlphaComponent(0.8))
+                                }
+                            }
+                        }
+                        .resizable()
+                        .aspectRatio(1.0, contentMode: .fit)
+                        .clipped()
+                        .padding(100)
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                }
+                ZStack {
+                    Rectangle()
+                        .fill(backgroundColor)
+                    HStack(spacing: 20) {
+                        ForEach(viewModel.detailPokemon?.types ?? []) { type in
+                            Text(type.name.capitalized)
+                                .font(.title2)
+                                .padding()
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 25)
+                                        .stroke(.white, lineWidth: 4)
+                                )
+                        }
+                    }
+                }
+                    .frame(height: 80)
+                Rectangle()
+                    .fill(backgroundColor)
+                    .frame(height: 20)
+            }
         }
     }
 }
