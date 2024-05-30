@@ -4,7 +4,7 @@
 [![Xcode 15.3.0](https://img.shields.io/badge/Xcode-15.3.0-blue.svg?style=flat)](https://developer.apple.com/xcode/)
 
 
-<img src="https://github.com/HelioMesquita/Pokedex/blob/master/.images/Screenshot2.png">
+<img src="https://github.com/HelioMesquita/Pokedex/blob/master/.images/Screenshot2.png" width="476" height="476">
 
 <img src="https://github.com/HelioMesquita/Pokedex/blob/master/.images/Screenshot1.png">
 
