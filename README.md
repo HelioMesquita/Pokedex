@@ -4,9 +4,9 @@
 [![Xcode 15.3.0](https://img.shields.io/badge/Xcode-15.3.0-blue.svg?style=flat)](https://developer.apple.com/xcode/)
 
 
-<img src="https://github.com/HelioMesquita/Pokedex/blob/master/.images/Screenshot2.png" width="476" height="476">
+<img src="https://github.com/HelioMesquita/Pokedex/blob/master/.images/Screenshot2.jpg" width="476" height="476">
 
-<img src="https://github.com/HelioMesquita/Pokedex/blob/master/.images/Screenshot1.png">
+<img src="https://github.com/HelioMesquita/Pokedex/blob/master/.images/Screenshot1.jpg">
 
 A Vision Pro application using architecture MVVM-C with UIHostingViewController, and to identify the Pokemon from 1st Generation, I generate a `.mldodel that identifies the 151
 
