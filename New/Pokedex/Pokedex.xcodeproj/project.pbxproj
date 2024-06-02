@@ -40,6 +40,24 @@
 		164C0F122C0BF0CF0084374B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C0EF32C0BF0CF0084374B /* Coordinator.swift */; };
 		164C0F152C0BF0FC0084374B /* HighReliefImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C0F132C0BF0FC0084374B /* HighReliefImage.swift */; };
 		164C0F182C0BF23C0084374B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 164C0F172C0BF23C0084374B /* SDWebImageSwiftUI */; };
+		164C0F502C0D2D780084374B /* Pikachu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F3F2C0D2D770084374B /* Pikachu.usdz */; };
+		164C0F512C0D2D780084374B /* Pidgeot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F402C0D2D780084374B /* Pidgeot.usdz */; };
+		164C0F522C0D2D780084374B /* Beedrill.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F412C0D2D780084374B /* Beedrill.usdz */; };
+		164C0F532C0D2D780084374B /* Charizard.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F422C0D2D780084374B /* Charizard.usdz */; };
+		164C0F542C0D2D780084374B /* Ivysaur.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F432C0D2D780084374B /* Ivysaur.usdz */; };
+		164C0F552C0D2D780084374B /* Bulbasaur.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F442C0D2D780084374B /* Bulbasaur.usdz */; };
+		164C0F562C0D2D780084374B /* Venusaur.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F452C0D2D780084374B /* Venusaur.usdz */; };
+		164C0F572C0D2D780084374B /* Charmander.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F462C0D2D780084374B /* Charmander.usdz */; };
+		164C0F582C0D2D780084374B /* Raticate.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F472C0D2D780084374B /* Raticate.usdz */; };
+		164C0F592C0D2D780084374B /* Metapod.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F482C0D2D780084374B /* Metapod.usdz */; };
+		164C0F5A2C0D2D780084374B /* Butterfree.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F492C0D2D780084374B /* Butterfree.usdz */; };
+		164C0F5B2C0D2D780084374B /* Pidgey.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F4A2C0D2D780084374B /* Pidgey.usdz */; };
+		164C0F5C2C0D2D780084374B /* Weedle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F4B2C0D2D780084374B /* Weedle.usdz */; };
+		164C0F5D2C0D2D780084374B /* Rattata.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F4C2C0D2D780084374B /* Rattata.usdz */; };
+		164C0F5E2C0D2D780084374B /* Raichu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F4D2C0D2D780084374B /* Raichu.usdz */; };
+		164C0F5F2C0D2D780084374B /* Charmeleon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F4E2C0D2D780084374B /* Charmeleon.usdz */; };
+		164C0F602C0D2D780084374B /* Pidgeotto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F4F2C0D2D780084374B /* Pidgeotto.usdz */; };
+		164C0F622C0D2E7E0084374B /* Blastoise.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F612C0D2E7E0084374B /* Blastoise.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +95,24 @@
 		164C0EF12C0BF0CF0084374B /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
 		164C0EF32C0BF0CF0084374B /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		164C0F132C0BF0FC0084374B /* HighReliefImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighReliefImage.swift; sourceTree = "<group>"; };
+		164C0F3F2C0D2D770084374B /* Pikachu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pikachu.usdz; sourceTree = "<group>"; };
+		164C0F402C0D2D780084374B /* Pidgeot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pidgeot.usdz; sourceTree = "<group>"; };
+		164C0F412C0D2D780084374B /* Beedrill.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Beedrill.usdz; sourceTree = "<group>"; };
+		164C0F422C0D2D780084374B /* Charizard.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Charizard.usdz; sourceTree = "<group>"; };
+		164C0F432C0D2D780084374B /* Ivysaur.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Ivysaur.usdz; sourceTree = "<group>"; };
+		164C0F442C0D2D780084374B /* Bulbasaur.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bulbasaur.usdz; sourceTree = "<group>"; };
+		164C0F452C0D2D780084374B /* Venusaur.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venusaur.usdz; sourceTree = "<group>"; };
+		164C0F462C0D2D780084374B /* Charmander.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Charmander.usdz; sourceTree = "<group>"; };
+		164C0F472C0D2D780084374B /* Raticate.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Raticate.usdz; sourceTree = "<group>"; };
+		164C0F482C0D2D780084374B /* Metapod.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Metapod.usdz; sourceTree = "<group>"; };
+		164C0F492C0D2D780084374B /* Butterfree.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Butterfree.usdz; sourceTree = "<group>"; };
+		164C0F4A2C0D2D780084374B /* Pidgey.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pidgey.usdz; sourceTree = "<group>"; };
+		164C0F4B2C0D2D780084374B /* Weedle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Weedle.usdz; sourceTree = "<group>"; };
+		164C0F4C2C0D2D780084374B /* Rattata.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Rattata.usdz; sourceTree = "<group>"; };
+		164C0F4D2C0D2D780084374B /* Raichu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Raichu.usdz; sourceTree = "<group>"; };
+		164C0F4E2C0D2D780084374B /* Charmeleon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Charmeleon.usdz; sourceTree = "<group>"; };
+		164C0F4F2C0D2D780084374B /* Pidgeotto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pidgeotto.usdz; sourceTree = "<group>"; };
+		164C0F612C0D2E7E0084374B /* Blastoise.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Blastoise.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +225,7 @@
 		164C0EE92C0BF0CF0084374B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				164C0F3C2C0D2B350084374B /* 3DModels */,
 				164C0EC22C0BF07F0084374B /* Assets.xcassets */,
 				164C0EC72C0BF07F0084374B /* Info.plist */,
 				164C0EE42C0BF0CF0084374B /* Preview Content */,
@@ -226,6 +263,31 @@
 				164C0F132C0BF0FC0084374B /* HighReliefImage.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		164C0F3C2C0D2B350084374B /* 3DModels */ = {
+			isa = PBXGroup;
+			children = (
+				164C0F612C0D2E7E0084374B /* Blastoise.usdz */,
+				164C0F412C0D2D780084374B /* Beedrill.usdz */,
+				164C0F442C0D2D780084374B /* Bulbasaur.usdz */,
+				164C0F492C0D2D780084374B /* Butterfree.usdz */,
+				164C0F422C0D2D780084374B /* Charizard.usdz */,
+				164C0F462C0D2D780084374B /* Charmander.usdz */,
+				164C0F4E2C0D2D780084374B /* Charmeleon.usdz */,
+				164C0F432C0D2D780084374B /* Ivysaur.usdz */,
+				164C0F482C0D2D780084374B /* Metapod.usdz */,
+				164C0F402C0D2D780084374B /* Pidgeot.usdz */,
+				164C0F4F2C0D2D780084374B /* Pidgeotto.usdz */,
+				164C0F4A2C0D2D780084374B /* Pidgey.usdz */,
+				164C0F3F2C0D2D770084374B /* Pikachu.usdz */,
+				164C0F4D2C0D2D780084374B /* Raichu.usdz */,
+				164C0F472C0D2D780084374B /* Raticate.usdz */,
+				164C0F4C2C0D2D780084374B /* Rattata.usdz */,
+				164C0F452C0D2D780084374B /* Venusaur.usdz */,
+				164C0F4B2C0D2D780084374B /* Weedle.usdz */,
+			);
+			path = 3DModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,8 +356,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				164C0F082C0BF0CF0084374B /* fontawesome-solid.otf in Resources */,
+				164C0F5A2C0D2D780084374B /* Butterfree.usdz in Resources */,
+				164C0F552C0D2D780084374B /* Bulbasaur.usdz in Resources */,
+				164C0F572C0D2D780084374B /* Charmander.usdz in Resources */,
+				164C0F502C0D2D780084374B /* Pikachu.usdz in Resources */,
+				164C0F5C2C0D2D780084374B /* Weedle.usdz in Resources */,
+				164C0F522C0D2D780084374B /* Beedrill.usdz in Resources */,
+				164C0F562C0D2D780084374B /* Venusaur.usdz in Resources */,
+				164C0F5B2C0D2D780084374B /* Pidgey.usdz in Resources */,
+				164C0F602C0D2D780084374B /* Pidgeotto.usdz in Resources */,
+				164C0F582C0D2D780084374B /* Raticate.usdz in Resources */,
+				164C0F622C0D2E7E0084374B /* Blastoise.usdz in Resources */,
+				164C0F542C0D2D780084374B /* Ivysaur.usdz in Resources */,
+				164C0F5D2C0D2D780084374B /* Rattata.usdz in Resources */,
 				164C0F062C0BF0CF0084374B /* Preview Assets.xcassets in Resources */,
+				164C0F592C0D2D780084374B /* Metapod.usdz in Resources */,
 				164C0EC32C0BF07F0084374B /* Assets.xcassets in Resources */,
+				164C0F532C0D2D780084374B /* Charizard.usdz in Resources */,
+				164C0F512C0D2D780084374B /* Pidgeot.usdz in Resources */,
+				164C0F5E2C0D2D780084374B /* Raichu.usdz in Resources */,
+				164C0F5F2C0D2D780084374B /* Charmeleon.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +550,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,6 +576,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

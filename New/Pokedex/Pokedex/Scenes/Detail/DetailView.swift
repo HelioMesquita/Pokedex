@@ -20,6 +20,7 @@ struct DetailView: View {
         }.onAppear {
             viewModel.loadDetail()
         }
+        .navigationTitle(viewModel.detailPokemon?.name.capitalized ?? "")
     }
     
 }

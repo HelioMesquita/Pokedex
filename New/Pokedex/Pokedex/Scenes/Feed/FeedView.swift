@@ -11,6 +11,8 @@ import Vision
 
 struct FeedView: View {
     
+    @Environment(\.openWindow) private var openWindow
+
     @State var whatIsThatPokemon: PhotosPickerItem?
     @State var viewModel: FeedViewModelProtocol
     @Environment(Coordinator.self) private var coordinator
@@ -29,7 +31,8 @@ struct FeedView: View {
                                 viewModel.handleNextPage(pokemon: pokemon.wrappedValue)
                             }
                             .onTapGesture {
-                                coordinator.showDetail(pokemon: pokemon.wrappedValue)
+                                openWindow(id: "message")
+//                                coordinator.showDetail(pokemon: pokemon.wrappedValue)
                             }
                             .frame(height: height)
                             .shadow(color: .black, radius: 1)
@@ -99,3 +102,4 @@ struct FeedView: View {
     
     return FeedView(viewModel: PreviewFeedViewModel())
 }
+

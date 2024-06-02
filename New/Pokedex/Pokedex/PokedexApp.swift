@@ -23,5 +23,10 @@ struct PokedexApp: App {
             .environment(coordinator)
         }
         
+        WindowGroup(id: "message") {
+            VolumeView()
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.3, height: 0.3, depth: 0.3, in: .meters)
     }
 }
