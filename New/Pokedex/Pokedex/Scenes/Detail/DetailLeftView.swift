@@ -12,25 +12,20 @@ struct DetailLeftView: View {
     
     @State var viewModel: DetailViewModelProtocol
     @Binding var backgroundColor: Color
+    @Environment(\.openWindow) private var openWindow
     
     var body: some View {
         VStack(spacing: 0) {
-            ZStack {
-                HighReliefImage(image: viewModel.detailPokemon?.image ?? "", backgroundColor: $backgroundColor)
-                if let pokemonName = viewModel.detailPokemon?.name.capitalized {
-                    Model3D(named: pokemonName) { model in
-                            model.resizable()
-    //                    model.clipped()
-    //                    model.padding(.top, 10)
-                    } placeholder: {
-                        ProgressView()
-                            .hidden()
-                    }
-                     .frame(width: 200)
-                    .aspectRatio(1.0, contentMode: .fit)
-//                   
-                    
-                }
+            HighReliefImage(image: viewModel.detailPokemon?.image ?? "", backgroundColor: $backgroundColor)
+            if let path = Bundle.main.path(forResource: viewModel.detailPokemon?.name.capitalized ?? "", ofType: "usdz") {
+                Button(action: {
+                    openWindow(id: "volume")
+                }, label: {
+                    Text("3D Model")
+                        .font(.title2)
+                        .padding()
+                })
+                .padding()
             }
             
             HStack(spacing: 20) {

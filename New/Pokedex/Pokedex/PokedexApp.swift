@@ -23,7 +23,7 @@ struct PokedexApp: App {
             .environment(coordinator)
         }
         
-        WindowGroup(id: "message") {
+        WindowGroup(id: "volume") {
             VolumeView()
         }
         .windowStyle(.volumetric)
