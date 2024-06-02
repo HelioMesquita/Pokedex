@@ -13,9 +13,23 @@ enum Destination: Hashable {
     case detail(FeedModel.Pokemon)
 }
 
-class ViewFactory {
-    @ViewBuilder
-    static func viewForDestination(_ destination: Destination) -> some View {
+@Observable class Coordinator {
+    var path: NavigationPath
+    
+    init(path: NavigationPath = NavigationPath()) {
+        self.path = path
+    }
+    
+    func startDestination() -> some View {
+        let viewModel = FeedViewModel()
+        return FeedView(viewModel: viewModel)
+    }
+        
+    func showDetail(pokemon: FeedModel.Pokemon) {
+        path.append(Destination.detail(pokemon))
+    }
+    
+    @ViewBuilder func viewForDestination(_ destination: Destination) -> some View {
         switch destination {
         case .feed:
             let viewModel = FeedViewModel()
@@ -24,14 +38,6 @@ class ViewFactory {
             let viewModel = DetailViewModel(pokemon: pokemon)
             DetailView(viewModel: viewModel)
         }
-    }
-}
-
-@Observable class Coordinator {
-    var path = NavigationPath()
-        
-    func showDetail(pokemon: FeedModel.Pokemon) {
-        path.append(Destination.detail(pokemon))
     }
 
 }

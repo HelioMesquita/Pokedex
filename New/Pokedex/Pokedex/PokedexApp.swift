@@ -14,12 +14,14 @@ struct PokedexApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack(path: $coordinator.path) {
-                FeedView(viewModel: FeedViewModel())
+                coordinator.startDestination()
                     .navigationDestination(for: Destination.self) { destination in
-                        ViewFactory.viewForDestination(destination)
+                        coordinator.viewForDestination(destination)
                     }
             }
+            
             .environment(coordinator)
         }
+        
     }
 }
