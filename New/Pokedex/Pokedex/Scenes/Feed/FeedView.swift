@@ -26,7 +26,6 @@ struct FeedView: View {
     let height: CGFloat = 200
     
     var body: some View {
-        NavigationStack {
             ZStack(alignment: .bottomTrailing) {
                 ScrollView {
                     LazyVGrid(columns: columns, spacing: 8) {
@@ -88,7 +87,6 @@ struct FeedView: View {
                     }
                 }
             }
-        }
     }
     
 }
