@@ -27,6 +27,7 @@ struct FeedPokemonCell: View {
     }
 }
 
-//#Preview {
-//    FeedPokemonCell()
-//}
+#Preview(windowStyle: .automatic) {
+    @State var pokemon = FeedModel.Pokemon(name: "Pikachu", url: "https://pokeapi.co/api/v2/pokemon/25/")
+    FeedPokemonCell(pokemon: $pokemon)
+}

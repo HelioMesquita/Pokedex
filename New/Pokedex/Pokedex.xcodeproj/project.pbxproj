@@ -10,7 +10,6 @@
 		164C0EBD2C0BF07E0084374B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 164C0EBC2C0BF07E0084374B /* RealityKitContent */; };
 		164C0EBF2C0BF07E0084374B /* PokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C0EBE2C0BF07E0084374B /* PokedexApp.swift */; };
 		164C0EC32C0BF07F0084374B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164C0EC22C0BF07F0084374B /* Assets.xcassets */; };
-		164C0EC62C0BF07F0084374B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164C0EC52C0BF07F0084374B /* Preview Assets.xcassets */; };
 		164C0EF52C0BF0CF0084374B /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C0ECE2C0BF0CF0084374B /* DetailBuilder.swift */; };
 		164C0EF62C0BF0CF0084374B /* DetailLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C0ECF2C0BF0CF0084374B /* DetailLeftView.swift */; };
 		164C0EF72C0BF0CF0084374B /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C0ED02C0BF0CF0084374B /* DetailModel.swift */; };
@@ -48,8 +47,7 @@
 		164C0EBB2C0BF07E0084374B /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		164C0EBE2C0BF07E0084374B /* PokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexApp.swift; sourceTree = "<group>"; };
 		164C0EC22C0BF07F0084374B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		164C0EC52C0BF07F0084374B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		164C0EC72C0BF07F0084374B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164C0EC72C0BF07F0084374B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		164C0ECE2C0BF0CF0084374B /* DetailBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBuilder.swift; sourceTree = "<group>"; };
 		164C0ECF2C0BF0CF0084374B /* DetailLeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailLeftView.swift; sourceTree = "<group>"; };
 		164C0ED02C0BF0CF0084374B /* DetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
@@ -114,13 +112,10 @@
 		164C0EB92C0BF07E0084374B /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				164C0EC22C0BF07F0084374B /* Assets.xcassets */,
+				164C0EBE2C0BF07E0084374B /* PokedexApp.swift */,
 				164C0F142C0BF0FC0084374B /* Components */,
 				164C0EF42C0BF0CF0084374B /* Coordinator */,
-				164C0EC72C0BF07F0084374B /* Info.plist */,
 				164C0EF22C0BF0CF0084374B /* Network */,
-				164C0EBE2C0BF07E0084374B /* PokedexApp.swift */,
-				164C0EC42C0BF07F0084374B /* Preview Content */,
 				164C0EE92C0BF0CF0084374B /* Resources */,
 				164C0EDF2C0BF0CF0084374B /* Scenes */,
 				164C0EE22C0BF0CF0084374B /* Utils */,
@@ -134,14 +129,6 @@
 				164C0EBB2C0BF07E0084374B /* RealityKitContent */,
 			);
 			path = Packages;
-			sourceTree = "<group>";
-		};
-		164C0EC42C0BF07F0084374B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				164C0EC52C0BF07F0084374B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		164C0ED62C0BF0CF0084374B /* Detail */ = {
@@ -202,6 +189,8 @@
 		164C0EE92C0BF0CF0084374B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				164C0EC22C0BF07F0084374B /* Assets.xcassets */,
+				164C0EC72C0BF07F0084374B /* Info.plist */,
 				164C0EE42C0BF0CF0084374B /* Preview Content */,
 				164C0EE62C0BF0CF0084374B /* fontawesome-solid.otf */,
 				164C0EE82C0BF0CF0084374B /* Pokedex3.mlmodel */,
@@ -304,7 +293,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164C0EC62C0BF07F0084374B /* Preview Assets.xcassets in Resources */,
 				164C0F082C0BF0CF0084374B /* fontawesome-solid.otf in Resources */,
 				164C0F062C0BF0CF0084374B /* Preview Assets.xcassets in Resources */,
 				164C0EC32C0BF07F0084374B /* Assets.xcassets in Resources */,
@@ -478,10 +466,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pokedex/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pokedex/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,10 +491,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pokedex/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pokedex/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

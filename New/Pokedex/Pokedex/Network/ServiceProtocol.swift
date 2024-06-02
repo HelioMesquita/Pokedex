@@ -28,7 +28,7 @@ extension ServiceProtocol {
       throw RequestError.unknownError
     }
 
-//    log(request: request.asURLRequest, response, data)
+    log(request: request.asURLRequest, response, data)
 
     if 200...299 ~= statusCode {
       do {

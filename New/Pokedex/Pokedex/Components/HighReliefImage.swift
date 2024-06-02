@@ -46,7 +46,7 @@ struct HighReliefImage: View {
     
 }
 
-//#Preview(windowStyle: .automatic) {
-//    @State var backgroundColor: Color = Color.clear
-//    HighReliefImage(image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png", backgroundColor: $backgroundColor)
-//}
+#Preview(windowStyle: .automatic) {
+    @State var backgroundColor: Color = Color.clear
+    return HighReliefImage(image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png", backgroundColor: $backgroundColor)
+}
