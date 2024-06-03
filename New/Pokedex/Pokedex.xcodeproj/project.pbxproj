@@ -58,6 +58,7 @@
 		164C0F5F2C0D2D780084374B /* Charmeleon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F4E2C0D2D780084374B /* Charmeleon.usdz */; };
 		164C0F602C0D2D780084374B /* Pidgeotto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F4F2C0D2D780084374B /* Pidgeotto.usdz */; };
 		164C0F622C0D2E7E0084374B /* Blastoise.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 164C0F612C0D2E7E0084374B /* Blastoise.usdz */; };
+		164C0F642C0D3F0A0084374B /* VolumetricView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164C0F632C0D3F0A0084374B /* VolumetricView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,7 @@
 		164C0F4E2C0D2D780084374B /* Charmeleon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Charmeleon.usdz; sourceTree = "<group>"; };
 		164C0F4F2C0D2D780084374B /* Pidgeotto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pidgeotto.usdz; sourceTree = "<group>"; };
 		164C0F612C0D2E7E0084374B /* Blastoise.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Blastoise.usdz; sourceTree = "<group>"; };
+		164C0F632C0D3F0A0084374B /* VolumetricView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumetricView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				164C0EE92C0BF0CF0084374B /* Resources */,
 				164C0EDF2C0BF0CF0084374B /* Scenes */,
 				164C0EE22C0BF0CF0084374B /* Utils */,
+				164C0F632C0D3F0A0084374B /* VolumetricView.swift */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				164C0F0C2C0BF0CF0084374B /* HttpVerb.swift in Sources */,
 				164C0EBF2C0BF07E0084374B /* PokedexApp.swift in Sources */,
 				164C0EF82C0BF0CF0084374B /* DetailRequest.swift in Sources */,
+				164C0F642C0D3F0A0084374B /* VolumetricView.swift in Sources */,
 				164C0EF52C0BF0CF0084374B /* DetailBuilder.swift in Sources */,
 				164C0F152C0BF0FC0084374B /* HighReliefImage.swift in Sources */,
 			);

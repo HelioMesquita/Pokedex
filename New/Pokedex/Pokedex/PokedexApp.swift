@@ -23,10 +23,10 @@ struct PokedexApp: App {
             .environment(coordinator)
         }
         
-        WindowGroup(id: "volume") {
-            VolumeView()
+        WindowGroup(id: "volume", for: URL.self) { url in
+            VolumeView(url: url.wrappedValue)
         }
         .windowStyle(.volumetric)
-        .defaultSize(width: 0.3, height: 0.3, depth: 0.3, in: .meters)
+        .defaultSize(width: 0.3, height: 0.3, depth: 1, in: .meters)
     }
 }
