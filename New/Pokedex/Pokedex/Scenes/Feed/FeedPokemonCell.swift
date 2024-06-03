@@ -18,12 +18,13 @@ struct FeedPokemonCell: View {
             Text("\(pokemon.name.capitalized) #\(pokemon.getId)")
                 .font(.title2)
                 .padding(.bottom, 10)
-        }.clipped()
-            .frame(maxWidth: .infinity)
-            .background(
-                Color(backgroundColor)
-            )
-            .clipShape(RoundedRectangle(cornerRadius: 12))
+        }
+        .clipped()
+        .frame(maxWidth: .infinity)
+        .background(
+            Color(backgroundColor)
+        )
+        .clipShape(RoundedRectangle(cornerRadius: 12))
     }
 }
 

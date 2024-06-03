@@ -34,6 +34,7 @@ struct FeedView: View {
                             }
                             .frame(height: height)
                             .shadow(color: .black, radius: 1)
+                            .hoverEffect(.automatic)
                     }
                 }
                 .padding()

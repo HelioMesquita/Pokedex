@@ -27,6 +27,5 @@ struct PokedexApp: App {
             VolumeView(url: url.wrappedValue)
         }
         .windowStyle(.volumetric)
-        .defaultSize(width: 0.3, height: 0.3, depth: 1, in: .meters)
     }
 }

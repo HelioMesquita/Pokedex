@@ -13,16 +13,21 @@ struct VolumeView: View {
     let url: URL?
     
     var body: some View {
-        Model3D(url: url!) { model in
-            model.resizable()
-        } placeholder: {
-            ProgressView()
+        ZStack{
+            Model3D(url: url!) { model in
+                model
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .clipped()
+            } placeholder: {
+                ProgressView()
+            }
         }
-//        .frame(width: 200)
-        .aspectRatio(1.0, contentMode: .fit)
+        .frame(width: 500, height: 500)
     }
 }
 
-//#Preview {
-//    VolumetricView()
-//}
+#Preview(windowStyle: .volumetric) {
+    let url = Bundle.main.url(forResource: "Blastoise", withExtension: "usdz")
+    return VolumeView(url: url)
+}
