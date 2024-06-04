@@ -50,4 +50,5 @@ class FeedModel {
             return lhs.id == rhs.id
         }
     }
+
 }

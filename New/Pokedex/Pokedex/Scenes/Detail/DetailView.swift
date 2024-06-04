@@ -25,7 +25,13 @@ struct DetailView: View {
     
 }
 
-//#Preview {
-//    DetailView()
-//}
-
+#Preview {
+    class PreviewDetailViewModel: DetailViewModelProtocol {
+        var detailPokemon: DetailModel? = DetailModel(name: "Pikachu", order: 1, weight: 10, types: [.init(name: "test")], abilities: [.init(name: "test")], stats: [.init(base: 10, name: "test")], image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png", height: 10)
+        
+        func loadDetail() {}
+    }
+    @State var backgroundColor: Color = .clear
+    
+    return DetailView(viewModel: PreviewDetailViewModel())
+}

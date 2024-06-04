@@ -9,7 +9,7 @@
 import Foundation
 import OSLog
 
-public protocol ServiceProtocol {
+protocol ServiceProtocol {
   var urlSession: URLSession { get }
   var jsonDecoder: JSONDecoder { get }
   func execute<BuilderType: BuilderProtocol>(_ request: RequestProtocol, builder: BuilderType) async throws -> BuilderType.ModelType
@@ -17,11 +17,11 @@ public protocol ServiceProtocol {
 
 extension ServiceProtocol {
 
-  public var jsonDecoder: JSONDecoder {
+  var jsonDecoder: JSONDecoder {
     return JSONDecoder()
   }
 
-  public func execute<BuilderType: BuilderProtocol>(_ request: RequestProtocol, builder: BuilderType) async throws -> BuilderType.ModelType {
+  func execute<BuilderType: BuilderProtocol>(_ request: RequestProtocol, builder: BuilderType) async throws -> BuilderType.ModelType {
     let (data, response) = try await urlSession.data(for: request.asURLRequest)
 
     guard let statusCode = (response as? HTTPURLResponse)?.statusCode else {

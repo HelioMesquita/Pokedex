@@ -8,9 +8,9 @@
 
 import Foundation
 
-public enum RequestError: Int, Error, LocalizedError, Equatable {
+enum RequestError: Int, Error, LocalizedError, Equatable {
 
-  public typealias RawValue = Int
+  typealias RawValue = Int
 
   case unknownError = 0
   case invalidParser = 1
@@ -20,7 +20,7 @@ public enum RequestError: Int, Error, LocalizedError, Equatable {
   case notFound = 404
   case serverError = 500
 
-  public var localizedDescription: String {
+  var localizedDescription: String {
     return String(describing: self)
   }
 

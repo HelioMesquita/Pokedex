@@ -12,7 +12,6 @@ class FeedResponse: Decodable {
     let next: String?
     let previous: String?
     let results: [NameURLModel]
-    
 }
 
 class NameURLModel: Decodable {

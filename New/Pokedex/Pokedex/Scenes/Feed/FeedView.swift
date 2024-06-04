@@ -101,4 +101,3 @@ struct FeedView: View {
     
     return FeedView(viewModel: PreviewFeedViewModel())
 }
-

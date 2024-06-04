@@ -1,5 +1,5 @@
 //
-//  AppCoordinator.swift
+//  Coordinator.swift
 //  pokedex
 //
 //  Created by Hélio Mesquita on 21/05/24.

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol RequestProtocol {
+protocol RequestProtocol {
   var scheme: String { get }
   var host: String { get }
   var path: String { get }
@@ -21,7 +21,7 @@ public protocol RequestProtocol {
 
 extension RequestProtocol {
 
-  public var asURLRequest: URLRequest {
+  var asURLRequest: URLRequest {
     var components = URLComponents()
     components.scheme = scheme
     components.host = host

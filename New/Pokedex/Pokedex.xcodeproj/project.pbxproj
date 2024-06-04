@@ -174,13 +174,13 @@
 			isa = PBXGroup;
 			children = (
 				164C0ECE2C0BF0CF0084374B /* DetailBuilder.swift */,
-				164C0ECF2C0BF0CF0084374B /* DetailLeftView.swift */,
 				164C0ED02C0BF0CF0084374B /* DetailModel.swift */,
 				164C0ED12C0BF0CF0084374B /* DetailRequest.swift */,
 				164C0ED22C0BF0CF0084374B /* DetailResponse.swift */,
+				164C0ED52C0BF0CF0084374B /* DetailViewModel.swift */,
+				164C0ECF2C0BF0CF0084374B /* DetailLeftView.swift */,
 				164C0ED32C0BF0CF0084374B /* DetailRightView.swift */,
 				164C0ED42C0BF0CF0084374B /* DetailView.swift */,
-				164C0ED52C0BF0CF0084374B /* DetailViewModel.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -190,11 +190,11 @@
 			children = (
 				164C0ED72C0BF0CF0084374B /* FeedBuilder.swift */,
 				164C0ED82C0BF0CF0084374B /* FeedModel.swift */,
-				164C0ED92C0BF0CF0084374B /* FeedPokemonCell.swift */,
 				164C0EDA2C0BF0CF0084374B /* FeedRequest.swift */,
 				164C0EDB2C0BF0CF0084374B /* FeedResponse.swift */,
-				164C0EDC2C0BF0CF0084374B /* FeedView.swift */,
 				164C0EDD2C0BF0CF0084374B /* FeedViewModel.swift */,
+				164C0EDC2C0BF0CF0084374B /* FeedView.swift */,
+				164C0ED92C0BF0CF0084374B /* FeedPokemonCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -202,8 +202,8 @@
 		164C0EDF2C0BF0CF0084374B /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				164C0ED62C0BF0CF0084374B /* Detail */,
 				164C0EDE2C0BF0CF0084374B /* Feed */,
+				164C0ED62C0BF0CF0084374B /* Detail */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";

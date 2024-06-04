@@ -70,6 +70,13 @@ struct DetailRightView: View {
     }
 }
 
-//#Preview {
-//    DetailRightView()
-//}
+#Preview(windowStyle: .automatic) {
+    class PreviewDetailViewModel: DetailViewModelProtocol {
+        var detailPokemon: DetailModel? = DetailModel(name: "Pikachu", order: 1, weight: 10, types: [.init(name: "test")], abilities: [.init(name: "test")], stats: [.init(base: 100, name: "test"), .init(base: 200, name: "test2"), .init(base: 300, name: "test3") ], image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png", height: 10)
+        
+        func loadDetail() {}
+    }
+    @State var backgroundColor: Color = .accentColor
+
+    return DetailRightView(viewModel: PreviewDetailViewModel(), backgroundColor: $backgroundColor)
+}
